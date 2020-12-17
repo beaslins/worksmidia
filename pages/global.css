@@ -55,6 +55,7 @@ header {
     top: 0;
     box-shadow: 0px 5px 10px -5px rgb(0 0 0 / 15%);
     z-index: 999;
+    background: #fff;
 }
 header div.flex {
     align-items: center;
@@ -89,7 +90,7 @@ section#banner h1.title {
 section#banner div.flex {
     align-items: center;
     justify-content: space-between;
-    height: 50vh;
+    padding-top: 5em;
 }
 /* End Home */
 
