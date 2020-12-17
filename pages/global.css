@@ -91,6 +91,7 @@ section#banner div.flex {
     align-items: center;
     justify-content: space-between;
     padding-top: 5em;
+    height: 70vh;
 }
 /* End Home */
 

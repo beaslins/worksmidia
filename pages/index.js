@@ -17,8 +17,8 @@ function Home() {
                         <Image
                             src="/images/tophome.png"
                             alt="Logo Works Midia"
-                            width="847"
-                            height="865"
+                            width="647"
+                            height="665"
                         />
                     </div>
                 </div>
