@@ -12,6 +12,10 @@ export default function Layout({children, title = 'Home | Works Midia'}) {
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
                 <meta name="author" content="Works Midia"/>
 
+                /** Font */
+                <link rel="preconnect" href="https://fonts.gstatic.com"/>
+                <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,500&display=swap" rel="stylesheet"/>
+
                 /** Google */
                 <meta name="description" content=""/>
                 <meta name="keywords" content=""/>
@@ -22,28 +26,32 @@ export default function Layout({children, title = 'Home | Works Midia'}) {
                 <meta property="og:image" content=""/>
             </Head>
             <header>
-                <div className="container">
-                    <Image
-                        src="/images/logo.png"
-                        alt="Logo Works Midia"
-                        width="150"
-                        height="50"
-                    />
-                    <nav>
-                        <Link href="">
+                <div className="container flex">
+                    <Link href="/">
+                        <a>
+                            <Image
+                                src="/images/logo.png"
+                                alt="Logo Works Midia"
+                                width="150"
+                                height="50"
+                            />
+                        </a>
+                    </Link>
+                    <nav className="menu">
+                        <Link href="/sobre">
                             <a>Sobre</a>
                         </Link>                        
-                        <Link href="">
+                        <Link href="/portfolio">
                             <a>Portfólio</a>
                         </Link>                        
-                        <Link href="">
+                        <Link href="/servicos">
                             <a>Serviços</a>
                         </Link>                        
-                        <Link href="">
+                        <Link href="/pacotes">
                             <a>Pacotes</a>
                         </Link>
-                        <Link href="">
-                            <a className="btn">Contato</a>
+                        <Link href="/contato">
+                            <a className="btn btn-blue">Contato</a>
                         </Link>                        
                     </nav>
                 </div>
