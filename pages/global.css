@@ -27,6 +27,7 @@ a.btn {
     box-shadow: -3px 3px 11px rgb(41 59 95 / 25%);
     border-radius: 2em 0 2em 2em;
     padding: 1em 1.5em;
+    font-weight: 600;
 }
 a.btn-blue {
     background: #0077b7;
@@ -79,7 +80,7 @@ header div nav a:hover {
 /* Home */
 section#banner {
     background: url('/images/backgroundheader.png') right top/contain no-repeat;
-    height: 70vh;
+    height: 80vh;
 }
 section#banner h1.title {
     font-size: 65px;
@@ -91,7 +92,14 @@ section#banner div.flex {
     align-items: center;
     justify-content: space-between;
     padding-top: 5em;
-    height: 70vh;
+    height: 80vh;
+}
+
+section#whyUs div.item {
+    text-align: center;
+}
+section#whyUs .icon {
+    width: 40px;
 }
 /* End Home */
 

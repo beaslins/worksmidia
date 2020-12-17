@@ -1,6 +1,10 @@
 import Link from "next/link"
 import Image from "next/image"
 import Layout from "../components/layout"
+import { motion } from "framer-motion"
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee, faLightbulb } from '@fortawesome/free-solid-svg-icons'
 
 function Home() {
     return (
@@ -14,12 +18,27 @@ function Home() {
                         </Link>
                     </div>
                     <div>
-                        <Image
-                            src="/images/tophome.png"
-                            alt="Logo Works Midia"
-                            width="647"
-                            height="665"
-                        />
+                        <motion.img src="/images/tophome.png" animate={{ x: 100 }} transition={{ type: "spring", fade: 0.5}}/>
+                    </div>
+                </div>
+            </section>
+
+            <section id="whyUs">
+                <div className="container flex">
+                    <div className="item">
+                        <FontAwesomeIcon icon={faLightbulb} className="icon" />
+                        <h3>Lorem Ipsum</h3>
+                        <p>Why money's in that office, right? If she start giving means some bullet about ain't there</p>
+                    </div>
+                    <div className="item">
+                        <FontAwesomeIcon icon={faLightbulb} className="icon" />
+                        <h3>Lorem Ipsum</h3>
+                        <p>Why money's in that office, right? If she start giving means some bullet about ain't there</p>
+                    </div>
+                    <div className="item">
+                        <FontAwesomeIcon icon={faLightbulb} className="icon" />
+                        <h3>Lorem Ipsum</h3>
+                        <p>Why money's in that office, right? If she start giving means some bullet about ain't there</p>
                     </div>
                 </div>
             </section>
