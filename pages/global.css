@@ -79,10 +79,10 @@ header div nav a:hover {
 /* Home */
 section#banner {
     background: url('/images/backgroundheader.png') right top/contain no-repeat;
-    height: 100vh;
+    height: 70vh;
 }
 section#banner h1.title {
-    font-size: 70px;
+    font-size: 65px;
     font-weight: 700;
     line-height: 1;
     margin-bottom: 1em;
