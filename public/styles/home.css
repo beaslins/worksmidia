@@ -154,4 +154,13 @@ section.home-pricing div.list ul li {
 section.home-pricing div.list ul li:nth-child(2n) {
     background: #f7f7f7;
 }
+
+section.cta {
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+}
+section.cta h2 {
+    margin-bottom: 1em;
+}
 /* End Home */

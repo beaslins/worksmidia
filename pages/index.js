@@ -188,7 +188,18 @@ function Home() {
                 </div>
             </section>
 
-            <section className="testimonials p-box"></section>
+            <section className="cta p-box">
+                <h2 className="title">
+                    Algum <span className="yellow">projeto</span> em mente? Vamos bater um papo 
+                    e trazer negócio para o 
+                    <span className="yellow"> mundo digital!</span>
+                </h2>
+                <Link href="/contato">
+                    <a className="btn btn-blue">Contato</a>
+                </Link>
+            </section>
+
+            <section className="testimonials"></section>
         </Layout>
     )
 }
