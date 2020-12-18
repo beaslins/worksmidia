@@ -1,0 +1,117 @@
+/* Home */
+section.home-banner {
+    background: url('/images/backgroundheader.png') right top/contain no-repeat;
+    height: 85vh;
+    align-items: center;
+}
+section.home-banner div.content, section.home-services div.image {
+    display: flex;
+    justify-content: flex-end;
+}
+section.home-banner div.content {
+    width: 50%;
+}
+
+section.home-banner div.content div.box-title {
+    padding-right: 5em;
+    width: 70%;
+}
+section.home-banner h1.title {
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 1em;
+}
+section.home-banner div.flex {
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5em;
+    height: 80vh;
+}
+
+section.home-whyus div.flex {
+    justify-content: center;
+    align-items: center;
+}
+section.home-whyus div.item {
+    text-align: center;
+    width: 25%;
+    padding: 0 1.5em;
+    flex-direction: column;
+}
+section.home-whyus div.item h3 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 1em;
+}
+section.home-whyus div.item p {
+    font-size: 15px;
+}
+section.home-whyus .icon {
+    width: 25px;
+}
+
+/* Bases */
+.base {
+    width: 100px;
+    height: 100px;
+}
+.base-one {
+    background: url('/images/base_one.png') center/contain no-repeat;
+}
+.base-two {
+    background: url('/images/base_two.png') center/contain no-repeat;
+}
+.base-three {
+    background: url('/images/base_three.png') center/contain no-repeat;
+}
+/* End Bases */
+
+section.home-services {
+    align-items: center;
+    justify-content: center;
+}
+section.home-services div.content, section.home-services div.image {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+section.home-services div.content div.box {
+    padding-right: 5em;
+    width: 70%;
+}
+section.home-services div.content div.box div.box-title {
+    margin-bottom: 2.5em;
+}
+section.home-services div.content div.box div.box-title h2 {
+    margin-bottom: 0.5em;
+}
+section.home-services div.content div.item {
+    margin-bottom: 2em;
+    align-items: center;
+}
+section.home-services div.content div.item div + div {
+    padding-left: 2em;
+}
+section.home-services div.content div.item h3.title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+section.home-services div.content div.item .icon {
+    width: 25px;
+}
+
+section.home-portfolio div.port-title {
+    width: 50%;
+    justify-content: flex-end;
+}
+section.home-portfolio div.port-title div.box-title {
+    width: 70%;
+}
+section.home-portfolio div.works {
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+    padding-top: 5em;
+}
+/* End Home */
