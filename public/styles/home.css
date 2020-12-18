@@ -114,4 +114,44 @@ section.home-portfolio div.works {
     grid-gap: 1em;
     padding-top: 5em;
 }
+
+section.home-pricing div.pri-title {
+    width: 50%;
+    justify-content: flex-end;
+}
+section.home-pricing div.pri-title div.box-title {
+    width: 70%;
+}
+
+section.home-pricing div.list {
+    grid-template-columns: repeat(4, 17.5%);
+    padding-top: 5em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+section.home-pricing div.list div.item {
+    border: 1px solid #ddd;
+}
+section.home-pricing div.list div.active {
+    border: none;
+    box-shadow: 0px 0px 32px rgb(0 0 0 / 10%);
+    position: relative;
+    padding-bottom: 4em;
+}
+section.home-pricing div.list div.item div.header {
+    padding: 1em 2em;
+    background: coral;
+    font-weight: 700;
+    font-size: 18px;
+    
+    background-color: #FFEBE2;
+    color: #d8a997;
+}
+section.home-pricing div.list ul li {
+    padding: 1em 0;
+}
+section.home-pricing div.list ul li:nth-child(2n) {
+    background: #f7f7f7;
+}
 /* End Home */

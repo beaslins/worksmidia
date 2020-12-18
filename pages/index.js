@@ -88,7 +88,7 @@ function Home() {
                 </div>
             </section>
 
-            <section className="clients container"></section>
+            <section className="clients"></section>
 
             <section className="home-portfolio p-box">
                 <div className="port-title flex">
@@ -136,6 +136,59 @@ function Home() {
                     </div>
                 </div>
             </section>
+
+            <section className="home-pricing">
+                <div className="pri-title flex">
+                    <div className="box-title">
+                        <h4 className="sub-title">Pacotes</h4>
+                        <h2 className="title">Stop selling. Start helping.</h2>
+                    </div>
+                </div>
+                <div className="list grid">
+                    <div className="item">
+                        <div className="header">Pacote X</div>
+                        <ul>
+                            <li className="service">Strategic Alliance</li>
+                            <li className="service">Growth Expansion</li>
+                            <li className="service">Business Planning</li>
+                            <li className="service">Contract Negotiation</li>
+                            <li className="service">Market Positioning</li>
+                        </ul>
+                    </div>
+                    <div className="item active">
+                        <div className="header">Pacote X</div>
+                        <ul>
+                            <li className="service">Strategic Alliance</li>
+                            <li className="service">Growth Expansion</li>
+                            <li className="service">Business Planning</li>
+                            <li className="service">Contract Negotiation</li>
+                            <li className="service">Market Positioning</li>
+                        </ul>
+                    </div>
+                    <div className="item">
+                        <div className="header">Pacote X</div>
+                        <ul>
+                            <li className="service">Strategic Alliance</li>
+                            <li className="service">Growth Expansion</li>
+                            <li className="service">Business Planning</li>
+                            <li className="service">Contract Negotiation</li>
+                            <li className="service">Market Positioning</li>
+                        </ul>
+                    </div>
+                    <div className="item">
+                        <div className="header">Pacote X</div>
+                        <ul>
+                            <li className="service">Strategic Alliance</li>
+                            <li className="service">Growth Expansion</li>
+                            <li className="service">Business Planning</li>
+                            <li className="service">Contract Negotiation</li>
+                            <li className="service">Market Positioning</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section className="testimonials p-box"></section>
         </Layout>
     )
 }
