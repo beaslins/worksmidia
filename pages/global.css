@@ -139,11 +139,27 @@ header div nav a:hover {
 /* End Header */
 
 /* Footer */
+footer div.grid {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2em;
+    align-items: center;
+    margin-bottom: 4em;
+}
 footer div.instagram-feed {
     display: grid;
     grid-template-columns: repeat(6, 10%);
 
     justify-content: center;
     align-items: center;
+}
+footer div.menu a {
+    display: block;
+}
+footer div.menu a + a {
+    margin-top: 0.3em;
+}
+footer div.copyright {
+    text-align: right;
+    margin-top: 1em;
 }
 /* End Footer */

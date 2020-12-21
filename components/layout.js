@@ -57,8 +57,8 @@ export default function Layout({children, title = 'Home | Works Midia'}) {
                 </div>
             </header>
             {children}
-            <footer className="p-box">
-                <div className="grid colunms-3">
+            <footer className="p-box container">
+                <div className="grid">
                     <div className="about">
                         <Image
                             src="/images/logo.png"
@@ -88,7 +88,7 @@ export default function Layout({children, title = 'Home | Works Midia'}) {
                     <div className="social">
                         <Link href="/contato">
                             <a>
-                                
+
                             </a>
                         </Link>
                     </div>
