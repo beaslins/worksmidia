@@ -139,4 +139,11 @@ header div nav a:hover {
 /* End Header */
 
 /* Footer */
+footer div.instagram-feed {
+    display: grid;
+    grid-template-columns: repeat(6, 10%);
+
+    justify-content: center;
+    align-items: center;
+}
 /* End Footer */

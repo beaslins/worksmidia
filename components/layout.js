@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
-
+import Instagram from './instagram'
 
 export default function Layout({children, title = 'Home | Works Midia'}) {
     return (
@@ -57,13 +57,46 @@ export default function Layout({children, title = 'Home | Works Midia'}) {
                 </div>
             </header>
             {children}
-            <footer>
+            <footer className="p-box">
                 <div className="grid colunms-3">
-                    <div className="about"></div>
-                    <div className="menu"></div>
-                    <div className="social"></div>
+                    <div className="about">
+                        <Image
+                            src="/images/logo.png"
+                            alt="Logo Works Midia"
+                            width="150"
+                            height="50"
+                        />
+                        <p>Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses differently than mine. You don't get sick, I do. That's also clear. But for some reason.</p>
+                    </div>
+                    <div className="menu">
+                        <Link href="/sobre">
+                            <a>Sobre</a>
+                        </Link>                        
+                        <Link href="/portfolio">
+                            <a>Portfólio</a>
+                        </Link>                        
+                        <Link href="/servicos">
+                            <a>Serviços</a>
+                        </Link>                        
+                        <Link href="/pacotes">
+                            <a>Pacotes</a>
+                        </Link>
+                        <Link href="/contato">
+                            <a>Contato</a>
+                        </Link>                        
+                    </div>
+                    <div className="social">
+                        <Link href="/contato">
+                            <a>
+                                
+                            </a>
+                        </Link>
+                    </div>
                 </div>
-                <div className="copyright"></div>
+                <Instagram/>
+                <div className="copyright">
+                    Feito por <span className="yellow">Works Midia</span>
+                </div>
             </footer>
         </>
     )

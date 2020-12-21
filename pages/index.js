@@ -6,6 +6,33 @@ import { motion } from "framer-motion"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCoffee, faLightbulb } from '@fortawesome/free-solid-svg-icons'
 
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+
+const responsive = {
+  superLargeDesktop: {
+    // the naming can be any, depends on you.
+    breakpoint: { max: 4000, min: 3000 },
+    items: 5,
+    partialVisibilityGutter: 40
+  },
+  desktop: {
+    breakpoint: { max: 3000, min: 1024 },
+    items: 4,
+    partialVisibilityGutter: 40
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 464 },
+    items: 2,
+    partialVisibilityGutter: 40
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1,
+    partialVisibilityGutter: 40
+  }
+}
+
 function Home() {
     return (
         <Layout>
@@ -88,56 +115,110 @@ function Home() {
                 </div>
             </section>
 
-            <section className="clients"></section>
+            <section className="home-clients container p-box">
+                <Carousel responsive={responsive} arrows={false}>
+                    <div className="client flex flex-centered">
+                        <Image 
+                            src="/images/clientone.png"
+                            alt="Cliente 1"
+                            width="185"
+                            height="72"
+                        />
+                    </div>
+                    <div className="client flex flex-centered">
+                        <Image 
+                            src="/images/clienttwo.png"
+                            alt="Cliente 2"
+                            width="185"
+                            height="72"
+                        />
+                    </div>
+                    <div className="client flex flex-centered">
+                        <Image 
+                            src="/images/clientthree.png"
+                            alt="Cliente 3"
+                            width="185"
+                            height="72"
+                        />
+                    </div>
+                    <div className="client flex flex-centered">
+                        <Image 
+                            src="/images/clientfour.png"
+                            alt="Cliente 4"
+                            width="185"
+                            height="72"
+                        />
+                    </div>
+                    <div className="client flex flex-centered">
+                        <Image 
+                            src="/images/clientone.png"
+                            alt="Cliente 1"
+                            width="185"
+                            height="72"
+                        />
+                    </div>
+                </Carousel>
+            </section>
 
-            <section className="home-portfolio p-box">
+            <section className="home-portfolio">
                 <div className="port-title flex">
                     <div className="box-title">
                         <h4 className="sub-title">Portfólio</h4>
                         <h2 className="title">Business has only two functions are marketing and innovation</h2>
                     </div>
                 </div>
-                <div className="works grid">
-                    <div>
-                        <Image 
-                            src="/images/port1.jpg"
-                            alt="Cliente 1"
-                            layout="responsive"
-                            width="570"
-                            height="420"
-                        />
-                    </div>
-                    <div>
-                        <Image 
-                            src="/images/port2.jpg"
-                            alt="Cliente 1"
-                            layout="responsive"
-                            width="570"
-                            height="420"
-                        />
-                    </div>
-                    <div>
-                        <Image 
-                            src="/images/port3.jpg"
-                            alt="Cliente 1"
-                            layout="responsive"
-                            width="570"
-                            height="420"
-                        />
-                    </div>
-                    <div>
-                        <Image 
-                            src="/images/port4.jpg"
-                            alt="Cliente 1"
-                            layout="responsive"
-                            width="570"
-                            height="420"
-                        />
-                    </div>
+                <div className="works">
+                    <Carousel responsive={responsive} partialVisible renderButtonGroupOutside={true}>
+                        <div className="work">
+                            <Image 
+                                src="/images/port1.jpg"
+                                alt="Cliente 1"
+                                layout="responsive"
+                                width="570"
+                                height="420"
+                            />
+                        </div>
+                        <div className="work">
+                            <Image 
+                                src="/images/port2.jpg"
+                                alt="Cliente 2"
+                                layout="responsive"
+                                width="570"
+                                height="420"
+                            />
+                        </div>
+                        <div className="work">
+                            <Image 
+                                src="/images/port3.jpg"
+                                alt="Cliente 3"
+                                layout="responsive"
+                                width="570"
+                                height="420"
+                            />
+                        </div>
+                        <div className="work">
+                            <Image 
+                                src="/images/port4.jpg"
+                                alt="Cliente 4"
+                                layout="responsive"
+                                width="570"
+                                height="420"
+                            />
+                        </div>
+                        <div className="work">
+                            <Image 
+                                src="/images/port1.jpg"
+                                alt="Cliente 1"
+                                layout="responsive"
+                                width="570"
+                                height="420"
+                            />
+                        </div>
+                    </Carousel>
                 </div>
             </section>
 
-            <section className="home-pricing">
+            <section className="home-pricing p-box">
                 <div className="pri-title flex">
                     <div className="box-title">
                         <h4 className="sub-title">Pacotes</h4>
@@ -188,7 +269,7 @@ function Home() {
                 </div>
             </section>
 
-            <section className="cta p-box">
+            <section className="cta">
                 <h2 className="title">
                     Algum <span className="yellow">projeto</span> em mente? Vamos bater um papo 
                     e trazer negócio para o 
@@ -199,7 +280,65 @@ function Home() {
                 </Link>
             </section>
 
-            <section className="testimonials"></section>
+            <section className="testimonials p-box"></section>
+
+            <section className="home-blog container">
+                <div className="box-title">
+                    <h4 className="sub-title">Blog</h4>
+                    <h2 className="title">Dicas para alavancar o <span className="block">seu negócio</span></h2>
+                </div>
+                <div className="posts grid">
+                    <div className="post">
+                        <Link href="/">
+                            <a>
+                                <Image 
+                                    src="/images/blog1.jpg"
+                                    alt="Título do post"
+                                    width="370"
+                                    height="280"
+                                />
+                                <div className="text">
+                                    <p className="title">You are free to choose what you want</p>
+                                    <p class="meta"><span className="date">25 de Dez, 2020</span> por <span className="author yellow">Works Midia</span></p>
+                                </div>
+                            </a>
+                        </Link>
+                    </div>
+                    <div className="spotlight">
+                        <Link href="/">
+                            <a>
+                                <Image 
+                                    src="/images/blog1.jpg"
+                                    alt="Título do post"
+                                    width="370"
+                                    height="280"
+                                />
+                                <div className="text">
+                                    <p className="title">You are free to choose what you want</p>
+                                    <p class="meta"><span className="date">25 de Dez, 2020</span> por <span className="author yellow">Works Midia</span></p>
+                                </div>
+                            </a>
+                        </Link>
+                    </div>
+                    <div className="post">
+                        <Link href="/">
+                            <a>
+                                <Image 
+                                    src="/images/blog1.jpg"
+                                    alt="Título do post"
+                                    width="370"
+                                    height="280"
+                                />
+                                <div className="text">
+                                    <p className="title">You are free to choose what you want</p>
+                                    <p class="meta"><span className="date">25 de Dez, 2020</span> por <span className="author yellow">Works Midia</span></p>
+                                </div>
+                            </a>
+                        </Link>
+                    </div>
+                </div>
+            </section>
+
         </Layout>
     )
 }
