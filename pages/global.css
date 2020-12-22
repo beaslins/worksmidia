@@ -139,24 +139,59 @@ header div nav a:hover {
 /* End Header */
 
 /* Footer */
+footer {
+    padding: 10em 0 2em 0;
+}
 footer div.grid {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2em;
     align-items: center;
     margin-bottom: 4em;
+    justify-content: center;
 }
 footer div.instagram-feed {
     display: grid;
-    grid-template-columns: repeat(6, 10%);
+    grid-template-columns: repeat(8, 12.5%);
 
     justify-content: center;
     align-items: center;
 }
-footer div.menu a {
-    display: block;
+footer div.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-footer div.menu a + a {
-    margin-top: 0.3em;
+footer div.social a {
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+    transition: 1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #003f88;
+    color: #fff;
+}
+footer div.social a:hover {
+    background: #fdc500;
+    color: #0077b7;
+}
+footer div.social a + a {
+    margin-left: 1em;
+}
+footer div.social .icon {
+    width: 20px;
+    height: 20px;
+}
+
+footer div.contact p.title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+}
+footer div.contact a.btn {
+    display: inline-block;
+    margin-top: 1em;
 }
 footer div.copyright {
     text-align: right;

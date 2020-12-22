@@ -1,0 +1,31 @@
+.item {
+    margin: 2em;
+    width: 100%;
+}
+.innerItem {
+    box-shadow: 5px 8px 30px rgb(0 0 0 / 15%);
+    border-radius: 10px;
+    transition: 1s;
+    background-color: #fff;
+
+    box-sizing: border-box;
+    width: 90%;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 60px 60px 55px;
+}
+.innerItem:focus, .item:focus {
+    outline: none;
+}
+p.name {
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+}
+p.designation {
+    font-size: 12px;
+    line-height: 1.5em;
+}
+

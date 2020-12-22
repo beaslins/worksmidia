@@ -201,4 +201,21 @@ section.home-blog div.posts div.spotlight p.title {
     font-size: 30px;
     transition: color 0.5s ease;
 }
+
+section.testimonials {
+    align-items: center;
+}
+section.testimonials .testimonial-area {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+section.testimonials div.box-title {
+    width: 30%;
+    margin-left: 5em;
+}
+.testimonial-area .testmonial-slick-wrapper {
+    width: 70%;
+}
+
 /* End Home */

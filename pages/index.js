@@ -1,13 +1,16 @@
 import Link from "next/link"
 import Image from "next/image"
+
 import Layout from "../components/layout"
+import Testmonials from "../components/testmonials"
+
 import { motion } from "framer-motion"
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee, faLightbulb } from '@fortawesome/free-solid-svg-icons'
 
-import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
+import { FaLightbulb } from 'react-icons/fa';
+
+import Horizontal from "react-multi-carousel"
+import "react-multi-carousel/lib/styles.css"
 
 const responsive = {
   superLargeDesktop: {
@@ -54,21 +57,21 @@ function Home() {
                 <div className="container flex">
                     <div className="item flex">
                         <div className="base base-one flex flex-centered">
-                            <FontAwesomeIcon icon={faLightbulb} className="icon" />
+                            <FaLightbulb className="icon" />
                         </div>
                         <h3 className="title">Meet Friends</h3>
                         <p>Why money's in that office, right? If she start giving means some bullet about ain't there</p>
                     </div>
                     <div className="item flex">
                         <div className="base base-two flex flex-centered">
-                            <FontAwesomeIcon icon={faLightbulb} className="icon" />
+                            <FaLightbulb className="icon" />
                         </div>
                         <h3 className="title">Private Community</h3>
                         <p>Why money's in that office, right? If she start giving means some bullet about ain't there</p>
                     </div>
                     <div className="item flex">
                         <div className="base base-three flex flex-centered">
-                            <FontAwesomeIcon icon={faLightbulb} className="icon" />
+                            <FaLightbulb className="icon" />
                         </div>
                         <h3 className="title">Free Membership</h3>
                         <p>Why money's in that office, right? If she start giving means some bullet about ain't there</p>
@@ -87,21 +90,21 @@ function Home() {
 
                         <div className="services-list">
                             <div className="item flex">
-                                <div><FontAwesomeIcon icon={faLightbulb} className="icon" /></div>
+                                <div><FaLightbulb className="icon" /></div>
                                 <div>
                                     <h3 className="title">Easy to Manage</h3>
                                     <p>Why money's in that office, right? If she start here giving for means some bullet about ain't there.</p>
                                 </div>
                             </div>
                             <div className="item flex">
-                                <div><FontAwesomeIcon icon={faLightbulb} className="icon" /></div>
+                                <div><FaLightbulb className="icon" /></div>
                                 <div>
                                     <h3 className="title">Easy to Manage</h3>
                                     <p>Why money's in that office, right? If she start here giving for means some bullet about ain't there.</p>
                                 </div>
                             </div>
                             <div className="item flex">
-                                <div><FontAwesomeIcon icon={faLightbulb} className="icon" /></div>
+                                <div><FaLightbulb className="icon" /></div>
                                 <div>
                                     <h3 className="title">Easy to Manage</h3>
                                     <p>Why money's in that office, right? If she start here giving for means some bullet about ain't there.</p>
@@ -116,7 +119,7 @@ function Home() {
             </section>
 
             <section className="home-clients container p-box">
-                <Carousel responsive={responsive} arrows={false}>
+                <Horizontal responsive={responsive} arrows={false}>
                     <div className="client flex flex-centered">
                         <Image 
                             src="/images/clientone.png"
@@ -157,7 +160,7 @@ function Home() {
                             height="72"
                         />
                     </div>
-                </Carousel>
+                </Horizontal>
             </section>
 
             <section className="home-portfolio">
@@ -168,7 +171,7 @@ function Home() {
                     </div>
                 </div>
                 <div className="works">
-                    <Carousel responsive={responsive} partialVisible renderButtonGroupOutside={true}>
+                    <Horizontal responsive={responsive} partialVisible renderButtonGroupOutside={true}>
                         <div className="work">
                             <Image 
                                 src="/images/port1.jpg"
@@ -214,7 +217,7 @@ function Home() {
                                 height="420"
                             />
                         </div>
-                    </Carousel>
+                    </Horizontal>
                 </div>
             </section>
 
@@ -280,7 +283,17 @@ function Home() {
                 </Link>
             </section>
 
-            <section className="testimonials p-box"></section>
+            <section className="testimonials p-box flex">
+                <div className="testimonial-area">
+                    <div className="testmonial-slick-wrapper">
+                        <Testmonials></Testmonials>  
+                    </div>       
+                </div>
+                <div className="box-title">
+                    <h4 className="sub-title">Depoimentos</h4>
+                    <h2 className="title">Authenticity, honesty, and personal voice</h2>
+                </div> 
+            </section>
 
             <section className="home-blog container">
                 <div className="box-title">
@@ -299,7 +312,7 @@ function Home() {
                                 />
                                 <div className="text">
                                     <p className="title">You are free to choose what you want</p>
-                                    <p class="meta"><span className="date">25 de Dez, 2020</span> por <span className="author yellow">Works Midia</span></p>
+                                    <p className="meta"><span className="date">25 de Dez, 2020</span> por <span className="author yellow">Works Midia</span></p>
                                 </div>
                             </a>
                         </Link>
@@ -315,7 +328,7 @@ function Home() {
                                 />
                                 <div className="text">
                                     <p className="title">You are free to choose what you want</p>
-                                    <p class="meta"><span className="date">25 de Dez, 2020</span> por <span className="author yellow">Works Midia</span></p>
+                                    <p className="meta"><span className="date">25 de Dez, 2020</span> por <span className="author yellow">Works Midia</span></p>
                                 </div>
                             </a>
                         </Link>
@@ -331,14 +344,13 @@ function Home() {
                                 />
                                 <div className="text">
                                     <p className="title">You are free to choose what you want</p>
-                                    <p class="meta"><span className="date">25 de Dez, 2020</span> por <span className="author yellow">Works Midia</span></p>
+                                    <p className="meta"><span className="date">25 de Dez, 2020</span> por <span className="author yellow">Works Midia</span></p>
                                 </div>
                             </a>
                         </Link>
                     </div>
                 </div>
             </section>
-
         </Layout>
     )
 }
