@@ -6,7 +6,6 @@ import Testmonials from "../components/testmonials"
 
 import { motion } from "framer-motion"
 
-
 import { FaLightbulb } from 'react-icons/fa';
 
 import Horizontal from "react-multi-carousel"

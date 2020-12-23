@@ -72,15 +72,19 @@ export default function Layout({children, title = 'Home | Works Midia'}) {
                             <p>Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses differently than mine. You don't get sick, I do. That's also clear. But for some reason.</p>
                         </div>
                         <div className="social">
-                            <Link href="" target="_blank">
-                                <a><FaFacebookF className="icon" /></a>
-                            </Link>
-                            <Link href="" target="_blank">
-                                <a><FaInstagram className="icon" /></a>
-                            </Link>
-                            <Link href="" target="_blank">
-                                <a><FaLinkedinIn className="icon" /></a>
-                            </Link>                    
+                            <p className="title">Redes Sociais</p>
+                            <p>Acompanhe nossas redes sociais e fique por dentro das novidades</p>
+                            <div className="flex">
+                                <Link href="" target="_blank">
+                                    <a><FaFacebookF className="icon" /></a>
+                                </Link>
+                                <Link href="" target="_blank">
+                                    <a><FaInstagram className="icon" /></a>
+                                </Link>
+                                <Link href="" target="_blank">
+                                    <a><FaLinkedinIn className="icon" /></a>
+                                </Link> 
+                            </div>                   
                         </div>
                         <div className="contact">
                             <p className="title">Algum projeto em mente?</p>

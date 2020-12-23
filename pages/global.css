@@ -142,10 +142,13 @@ header div nav a:hover {
 footer {
     padding: 10em 0 2em 0;
 }
+footer p {
+    font-size: 15px;
+}
 footer div.grid {
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 2em;
-    align-items: center;
+    grid-gap: 3em;
+    align-items: flex-start;
     margin-bottom: 4em;
     justify-content: center;
 }
@@ -156,10 +159,15 @@ footer div.instagram-feed {
     justify-content: center;
     align-items: center;
 }
-footer div.social {
+footer div.social div.flex {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+}
+footer div.social p.title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0.5em;
 }
 footer div.social a {
     width: 35px;
@@ -171,6 +179,7 @@ footer div.social a {
     justify-content: center;
     background: #003f88;
     color: #fff;
+    margin-top: 0.6em;
 }
 footer div.social a:hover {
     background: #fdc500;

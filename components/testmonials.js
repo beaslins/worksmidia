@@ -26,7 +26,7 @@ export default function SimpleSlider() {
                 width="100"
                 height="100"
             />
-            <div>
+            <div className={style.text}>
                 <p className={style.testmonial}>Your cells react to engine bacteria and viruses differently than mine. You don't get sick, I doesnt. That's also clear. But for some reason.</p>
                 <p className={style.name}>Fatima Mahmoud</p>
                 <p className={style.designation}>ABMFR</p>
@@ -41,7 +41,7 @@ export default function SimpleSlider() {
                 width="100"
                 height="100"
             />
-            <div>
+            <div className={style.text}>
                 <p className={style.testmonial}>Your cells react to engine bacteria and viruses differently than mine. You don't get sick, I doesnt. That's also clear. But for some reason.</p>
                 <p className={style.name}>Fatima Mahmoud</p>
                 <p className={style.designation}>ABMFR</p>
@@ -56,7 +56,7 @@ export default function SimpleSlider() {
                 width="100"
                 height="100"
             />
-            <div>
+            <div className={style.item}>
                 <p className={style.testmonial}>Your cells react to engine bacteria and viruses differently than mine. You don't get sick, I doesnt. That's also clear. But for some reason.</p>
                 <p className={style.name}>Fatima Mahmoud</p>
                 <p className={style.designation}>ABMFR</p>
@@ -71,7 +71,7 @@ export default function SimpleSlider() {
                 width="100"
                 height="100"
             />
-            <div>
+            <div className={style.text}>
                 <p className={style.testmonial}>Your cells react to engine bacteria and viruses differently than mine. You don't get sick, I doesnt. That's also clear. But for some reason.</p>
                 <p className={style.name}>Fatima Mahmoud</p>
                 <p className={style.designation}>WORKS</p>
