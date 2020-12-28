@@ -1,8 +1,9 @@
 /* Home */
 section.home-banner {
     background: url('/images/backgroundheader.png') right top/contain no-repeat;
-    height: 85vh;
+    height: calc(100vh - 90px);
     align-items: center;
+    margin-top: 90px;
 }
 section.home-banner div.content, section.home-services div.image {
     display: flex;
@@ -26,7 +27,6 @@ section.home-banner div.flex {
     align-items: center;
     justify-content: space-between;
     padding-top: 5em;
-    height: 80vh;
 }
 
 section.home-whyus div.flex {

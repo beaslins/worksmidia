@@ -48,7 +48,12 @@ function Home() {
                     </div>
                 </div>
                 <div className="image">
-                    <motion.img src="/images/tophome.png" animate={{ z: 100 }} transition={{ type: "spring", fade: 0.5}}/>
+                    <motion.img
+                        initial={{opacity: 0}} 
+                        animate={{opacity: 1}} 
+                        transition={{delay: 0.2, duration: 1}}
+                        src="/images/tophome.png" 
+                    />
                 </div>
             </section>
 

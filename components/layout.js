@@ -96,7 +96,7 @@ export default function Layout({children, title = 'Home | Works Midia'}) {
                     </div>
                     <Instagram/>
                     <div className="copyright">
-                        Denvolvimento por <span className="yellow">Works Midia</span>
+                        Denvolvimento por <span className="blue">Works Midia</span>
                     </div>
                 </div>
             </footer>

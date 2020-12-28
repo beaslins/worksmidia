@@ -39,11 +39,25 @@ ul {
 img {
     max-width: 100%;
     height: auto;
+    z-index: 1;
 }
 
 a {
     color: inherit;
     text-decoration: none;
+}
+
+input, select, textarea, button {
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+*:focus,
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
 }
 
 
@@ -75,23 +89,26 @@ body {
 }
 
 /* Buttons */
-a.btn {
+a.btn, button.btn {
     color: #ffffff;
     box-shadow: -3px 3px 11px rgb(41 59 95 / 25%);
     border-radius: 2em 0 2em 2em;
     padding: 1em 1.5em;
     font-weight: 600;
 }
-a.btn-blue {
+a.btn-blue, button.btn-blue {
     background: #0077b7;
     transition: background 0.4s ease-in, color 0.4s ease-in;
 }
-a.btn-blue:hover {
+a.btn-blue:hover, button.btn-blue:hover {
     background: #fdc500;
     color: #0077b7;
 }
 span.yellow {
     color: #fdc500;
+}
+a.link, span.blue {
+    color: #0077b7;
 }
 
 /* Titles */
@@ -112,15 +129,15 @@ span.yellow {
 }
 /* Header */
 header {
-    padding: 1.5em 0;
     position: fixed;
     top: 0;
     box-shadow: 0px 5px 10px -5px rgb(0 0 0 / 15%);
-    z-index: 999;
+    z-index: 99;
     background: #fff;
     width: 100%;
 }
 header div.flex {
+    height: 90px;
     align-items: center;
     justify-content: space-between;
 }
