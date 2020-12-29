@@ -1,0 +1,35 @@
+.work {
+    margin: 0.6em 0;
+    position: relative;
+}
+.link {
+    display: block;
+    margin: 0;
+}
+.description {
+    text-align: center;
+    background: #fdc600a2;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+
+    color: #fff;
+    transition: all 0.3s ease-in;
+
+    opacity: 0;
+    padding: 2em;
+}
+.border {
+    border: 2px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+.work:hover .description {
+    opacity: 1;
+}

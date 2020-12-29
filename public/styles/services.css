@@ -1,0 +1,51 @@
+/* Services */
+section.services {
+    margin-top: 10.6em;
+}
+section.services .box-title {
+    text-align: center;
+    margin-bottom: 3.5em;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    gap: 1em;
+    justify-content: stretch;
+    align-items: center;
+}
+.ser-list div {
+    margin-bottom: 1em;
+}
+
+section.ser-pricing div.list {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    padding-top: 5em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+section.ser-pricing div.list div.item {
+    border: 1px solid #ddd;
+}
+section.ser-pricing div.list div.active {
+    border: none;
+    box-shadow: 0px 0px 32px rgb(0 0 0 / 10%);
+    position: relative;
+    padding-bottom: 4em;
+}
+section.ser-pricing div.list div.item div.header {
+    padding: 1em 2em;
+    background: coral;
+    font-weight: 700;
+    font-size: 18px;
+    
+    background-color: #FFEBE2;
+    color: #d8a997;
+}
+section.ser-pricing div.list ul li {
+    padding: 1em 0;
+}
+section.ser-pricing div.list ul li:nth-child(2n) {
+    background: #f7f7f7;
+}
