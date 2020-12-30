@@ -320,4 +320,7 @@ footer div.copyright {
     footer div.grid {
         grid-template-columns: 1fr;
     }
+    footer div.social div.flex {
+        justify-content: center;
+    }
 }
