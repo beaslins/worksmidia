@@ -1,3 +1,5 @@
+import React, {useState} from 'react'
+
 import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
@@ -6,6 +8,14 @@ import Instagram from './instagram'
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 
 export default function Layout({children, title = 'Home | Works Midia'}) {
+
+    // Menu
+    const [showMe, setShowMe] = useState(false);
+    function toggle(){
+        console.log('aqui')
+      setShowMe(!showMe);
+    }
+
     return (
         <>
             <Head>
@@ -30,7 +40,7 @@ export default function Layout({children, title = 'Home | Works Midia'}) {
             <header>
                 <div className="container flex">
                     <Link href="/">
-                        <a>
+                        <a className="logo">
                             <Image
                                 src="/images/logo.png"
                                 alt="Logo Works Midia"
@@ -39,23 +49,40 @@ export default function Layout({children, title = 'Home | Works Midia'}) {
                             />
                         </a>
                     </Link>
-                    <nav className="menu">
-                        <Link href="/sobre">
-                            <a>Sobre</a>
-                        </Link>                        
-                        <Link href="/portfolio">
-                            <a>Portfólio</a>
-                        </Link>                        
-                        <Link href="/servicos">
-                            <a>Serviços</a>
-                        </Link>                        
-                        <Link href="/blog">
-                            <a>Blog</a>
-                        </Link>
-                        <Link href="/contato">
-                            <a className="btn btn-blue">Contato</a>
-                        </Link>                        
-                    </nav>
+                    <div className={showMe ? "menu-section on" : "menu-section"}>
+                        <div className="menu-toggle" onClick={toggle}>
+                            <div className="one"></div>
+                            <div className="two"></div>
+                            <div className="three"></div>
+                        </div>
+                        <nav className="menu">
+                            <Link href="/">
+                                <a className="logo-mobile">
+                                    <Image
+                                        src="/images/logo.png"
+                                        alt="Logo Works Midia"
+                                        width="150"
+                                        height="50"
+                                    />
+                                </a>
+                            </Link>
+                            <Link href="/sobre">
+                                <a>Sobre</a>
+                            </Link>                        
+                            <Link href="/portfolio">
+                                <a>Portfólio</a>
+                            </Link>                        
+                            <Link href="/servicos">
+                                <a>Serviços</a>
+                            </Link>                        
+                            <Link href="/blog">
+                                <a>Blog</a>
+                            </Link>
+                            <Link href="/contato">
+                                <a className="btn btn-blue">Contato</a>
+                            </Link>                        
+                        </nav>
+                    </div>
                 </div>
             </header>
             {children}

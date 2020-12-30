@@ -1,0 +1,36 @@
+/* Blog */
+section.posts, section.blog-post {
+    margin-top: 10.6em; /* 90px from header menu + 10em*/
+}
+section.posts div.grid {
+    grid-template-columns: repeat(3, 33%);
+    gap: 2em;
+    align-items: center;
+    justify-content: stretch;
+}
+
+section.blog-post article {
+    width: 65%;
+}
+section.blog-post article h1 {
+    color: #293b5f;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1em;
+    margin-bottom: 22px;
+    padding-top: 18px;
+}
+
+@media screen and (max-width: 600px) {
+    section.posts {
+        padding: 0 1em;
+        margin-bottom: 3em;
+    }
+    section.posts div.grid {
+        grid-template-columns: 1fr;
+    }
+    section.blog-post article {
+        width: 100%;
+        padding:  0 1em;
+    }
+}

@@ -34,3 +34,22 @@ section.port-details div.description p.sub-title {
 section.port-details div.description p.sub-text {
     color: #293b5f;
 }
+
+@media screen and (max-width: 600px) { 
+    .mansory {
+        margin: 0 auto;
+        padding: 0 1em;
+        column-count: 1;
+    }
+    section.port-details div.flex {
+        flex-direction: column-reverse;
+    }
+    section.port-details div.description {
+        margin-left: 0;
+        padding: 0 1em;
+        margin-bottom: 3em;
+    }
+    section.port-details div.images {
+        margin-bottom: 5em;
+    }
+}

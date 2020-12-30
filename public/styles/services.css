@@ -49,3 +49,22 @@ section.ser-pricing div.list ul li {
 section.ser-pricing div.list ul li:nth-child(2n) {
     background: #f7f7f7;
 }
+
+@media screen and (max-width: 600px) { 
+    section.services {
+        margin-bottom: 3em;
+    }
+    section.services, section.ser-pricing {
+        padding: 0 1em;
+    }
+    div.ser-list {
+        grid-template-columns: 1fr;
+    }
+    section.ser-pricing div.list {
+        grid-template-columns: 1fr;
+        padding-top: 3em;
+    }
+    section.ser-pricing div.list div.item {
+        margin-bottom: 2em;
+    }
+}

@@ -1,4 +1,4 @@
-import Feed from "react-instagram-authless-feed"
+// import Feed from "react-instagram-authless-feed"
 
 function Instagram() {
     return (

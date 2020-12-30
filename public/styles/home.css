@@ -219,3 +219,75 @@ section.testimonials div.box-title {
 }
 
 /* End Home */
+
+
+@media screen and (max-width: 600px) {
+    section.home-banner {
+        height: calc(50vh - 90px);
+        padding-top: 90px;
+    }
+    
+    section.home-banner div.content {
+        display: block;
+        width: 100%;
+        padding: 0 1em;
+    }
+    section.home-banner div.content div.box-title, section.home-services div.content div.box {
+        width: 100%;
+        padding-right: 0;
+    }
+    section.home-banner h1.title {
+        font-size: 45px;
+    }
+    section.home-banner .image, section.home-services div.image {
+        display: none;
+    }
+
+    section.home-whyus div.flex {
+        flex-direction: column;
+    }
+    section.home-whyus div.item {
+        width: 100%;
+        margin: 1em 0
+    }
+
+    section.home-services {
+        display: block;
+        padding: 0 1em;
+    }
+    section.home-services div.content, section.home-services div.image {
+        width: 100%;
+    }
+
+    section.home-portfolio, section.home-pricing {
+        padding: 0 1em;
+    }
+    section.home-portfolio div.port-title, 
+    section.home-portfolio div.port-title div.box-title, 
+    section.home-pricing div.pri-title {
+        display: block;
+        width: 100%;
+    }
+
+    section.home-pricing div.pri-title div.box-title {
+        width: 100%;
+        margin-top: 5em;
+    }
+    section.home-pricing div.list {
+        grid-template-columns: 1fr;
+        padding-top: 3em;
+    }
+
+    section.cta {
+        width: 100%;
+        margin-top: 5em;
+    }
+
+    section.home-blog {
+        margin-top: 5em;
+    }
+    section.home-blog div.posts {
+        grid-template-columns: 1fr;
+        padding: 0 1em;
+    }
+}

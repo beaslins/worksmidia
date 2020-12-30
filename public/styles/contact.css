@@ -98,3 +98,34 @@ section.contact p.phone {
 }
 
 
+@media screen and (max-width: 600px) {
+    section.contact {
+        flex-direction: column;
+    }
+    section.contact div.information {
+        display: block;
+        width: 100%;
+        padding: 0 1em;
+        margin-bottom: 3em;
+    }
+    section.contact div.box-title {
+        width: 100%;
+        padding-right: 0;
+    }
+    section.contact div.input-group {
+        flex-direction: column;
+    }
+    .input-group {
+        margin-bottom: 0;
+    }
+    .input-group input {
+        margin-bottom: 1em;
+    }
+    .input-group input + input {
+        margin-left: 0;
+    }
+    .btn {
+        margin-top: 2em;
+    }
+}
+
