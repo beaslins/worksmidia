@@ -231,7 +231,7 @@ footer div.copyright {
 
 @media screen and (max-width: 600px) { 
     .title {
-        font-size: 35px;
+        font-size: 30px;
     }
     .p-box {
         padding: 5em 0;
