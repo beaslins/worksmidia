@@ -116,14 +116,14 @@ export default function Layout({children, title = 'Home | Works Midia'}) {
                         <div className="contact">
                             <p className="title">Algum projeto em mente?</p>
                             <p>Vamos bater um papo e trazer negócio para o mundo digital!</p>
-                            <Link href="/contato">
+                            <Link href="https://api.whatsapp.com/send?phone=551140406422">
                                 <a className="btn btn-blue">Whatsapp</a>
                             </Link>
                         </div>
                     </div>
                     <Instagram/>
                     <div className="copyright">
-                        Denvolvimento por <span className="blue">Works Midia</span>
+                        Desenvolvido por <span className="blue">Works Midia</span>
                     </div>
                 </div>
             </footer>

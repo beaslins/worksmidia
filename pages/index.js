@@ -6,7 +6,7 @@ import Testmonials from "../components/testmonials"
 
 import { motion } from "framer-motion"
 
-import { FaLightbulb } from 'react-icons/fa';
+import { FaLightbulb, FaLaptop, FaMobile, FaShareAlt } from 'react-icons/fa';
 
 import Horizontal from "react-multi-carousel"
 import "react-multi-carousel/lib/styles.css"
@@ -47,71 +47,63 @@ function Home() {
                         </Link>
                     </div>
                 </div>
-                <div className="image">
-                    <motion.img
-                        initial={{opacity: 0}} 
-                        animate={{opacity: 1}} 
-                        transition={{delay: 0.2, duration: 1}}
-                        src="/images/tophome.png" 
-                    />
-                </div>
             </section>
 
-            <section className="home-whyus p-box">
+            <section className="home-whyus">
                 <div className="container flex">
                     <div className="item flex">
-                        <div className="base base-one flex flex-centered">
+                        {/** <div className="base base-one flex flex-centered">
                             <FaLightbulb className="icon" />
-                        </div>
-                        <h3 className="title">Meet Friends</h3>
-                        <p>Why money's in that office, right? If she start giving means some bullet about ain't there</p>
+                        </div> */}
+                        <h3 className="title">Missão</h3>
+                        <p>Proporcionar aos clientes o que tem de mais moderno em Tecnologia e Marketing, com excelência em inovação.</p>
                     </div>
                     <div className="item flex">
-                        <div className="base base-two flex flex-centered">
+                        {/** <div className="base base-two flex flex-centered">
                             <FaLightbulb className="icon" />
-                        </div>
-                        <h3 className="title">Private Community</h3>
-                        <p>Why money's in that office, right? If she start giving means some bullet about ain't there</p>
+                        </div> */}
+                        <h3 className="title">Visão</h3>
+                        <p>Ser empresa referência em tecnologia e soluções de marketing digital aos nossos clientes até 2023.</p>
                     </div>
                     <div className="item flex">
-                        <div className="base base-three flex flex-centered">
+                        {/** <div className="base base-three flex flex-centered">
                             <FaLightbulb className="icon" />
-                        </div>
-                        <h3 className="title">Free Membership</h3>
-                        <p>Why money's in that office, right? If she start giving means some bullet about ain't there</p>
+                        </div> */}
+                        <h3 className="title">Valores</h3>
+                        <p>Desenvolver soluções arrojadas, de alto padrão e fácil acesso.</p>
                     </div>
                 </div>
             </section>
 
-            <section className="home-services flex">
+            <section className="home-services flex p-box">
                 <div className="content">
                     <div className="box">
                         <div className="box-title">
                             <h4 className="sub-title">Serviços</h4>
-                            <h2 className="title">Easy management for your business</h2>
-                            <p>Why money's in that office, right? If she start giving means some bullet about ain't there, and we got to go placing else and get it.</p>
+                            <h2 className="title">Soluções arrojadas, de alto padrão e fácil acesso</h2>
+                            <p>Nossa paixão é por ajudar empresas a divulgarem os seus negócios e com isso ajudarem mais pessoas com os seus produtos, serviços e conteúdos.</p>
                         </div>
 
                         <div className="services-list">
                             <div className="item flex">
-                                <div><FaLightbulb className="icon" /></div>
+                                <div><FaLaptop className="icon" /></div>
                                 <div>
-                                    <h3 className="title">Easy to Manage</h3>
-                                    <p>Why money's in that office, right? If she start here giving for means some bullet about ain't there.</p>
+                                    <h3 className="title">Desenvolvimento de Site</h3>
+                                    <p>Desenvolvimento de sites para todos os tipos de negócios, entendendo desde o publico alvo até a alma do negocio.</p>
                                 </div>
                             </div>
                             <div className="item flex">
-                                <div><FaLightbulb className="icon" /></div>
+                                <div><FaMobile className="icon" /></div>
                                 <div>
-                                    <h3 className="title">Easy to Manage</h3>
-                                    <p>Why money's in that office, right? If she start here giving for means some bullet about ain't there.</p>
+                                    <h3 className="title">Desenvolvimento de aplicativos mobile</h3>
+                                    <p>Aplicativos mobile personalizados para qualquer tipo de negócio, sistema simples e intuitivo para gerenciamento através de um único clique.</p>
                                 </div>
                             </div>
                             <div className="item flex">
-                                <div><FaLightbulb className="icon" /></div>
+                                <div><FaShareAlt className="icon" /></div>
                                 <div>
-                                    <h3 className="title">Easy to Manage</h3>
-                                    <p>Why money's in that office, right? If she start here giving for means some bullet about ain't there.</p>
+                                    <h3 className="title">Gestão de mídias sociais</h3>
+                                    <p>Criação, conteúdo, analise e planejamendo das suas páginas nas redes sociais (Facebook e Instagram).</p>
                                 </div>
                             </div>
                         </div>
@@ -122,56 +114,56 @@ function Home() {
                 </div>
             </section>
 
-            <section className="home-clients container p-box">
+            <section className="home-clients container">
                 <Horizontal responsive={responsive} arrows={false}>
                     <div className="client flex flex-centered">
                         <Image 
-                            src="/images/clientone.png"
-                            alt="Cliente 1"
-                            width="185"
-                            height="72"
+                            src="/images/clientfive.png"
+                            alt="Pampus"
+                            width="87"
+                            height="50"
                         />
                     </div>
                     <div className="client flex flex-centered">
                         <Image 
                             src="/images/clienttwo.png"
-                            alt="Cliente 2"
-                            width="185"
-                            height="72"
+                            alt="Nohar Steak Bar"
+                            width="133"
+                            height="50"
                         />
                     </div>
                     <div className="client flex flex-centered">
                         <Image 
                             src="/images/clientthree.png"
-                            alt="Cliente 3"
-                            width="185"
-                            height="72"
+                            alt="Levitatur"
+                            width="96"
+                            height="50"
                         />
                     </div>
                     <div className="client flex flex-centered">
                         <Image 
                             src="/images/clientfour.png"
-                            alt="Cliente 4"
-                            width="185"
-                            height="72"
+                            alt="AMIB"
+                            width="168"
+                            height="50"
                         />
                     </div>
                     <div className="client flex flex-centered">
                         <Image 
                             src="/images/clientone.png"
-                            alt="Cliente 1"
-                            width="185"
-                            height="72"
+                            alt="AUA News"
+                            width="325"
+                            height="50"
                         />
                     </div>
                 </Horizontal>
             </section>
 
-            <section className="home-portfolio">
+            <section className="home-portfolio p-box">
                 <div className="port-title flex">
                     <div className="box-title">
                         <h4 className="sub-title">Portfólio</h4>
-                        <h2 className="title">Business has only two functions are marketing and innovation</h2>
+                        <h2 className="title">Usamos a tecnologia para aproximar negócios à pessoas.</h2>
                     </div>
                 </div>
                 <div className="works">
@@ -214,7 +206,26 @@ function Home() {
                         </div>
                         <div className="work">
                             <Image 
-                                src="/images/port1.jpg"
+                                src="/images/port5.jpg"
+                                alt="Cliente 1"
+                                layout="responsive"
+                                width="570"
+                                height="420"
+                            />
+                        </div>
+                        
+                        <div className="work">
+                            <Image 
+                                src="/images/port6.jpg"
+                                alt="Cliente 1"
+                                layout="responsive"
+                                width="570"
+                                height="420"
+                            />
+                        </div>
+                        <div className="work">
+                            <Image 
+                                src="/images/port7.jpg"
                                 alt="Cliente 1"
                                 layout="responsive"
                                 width="570"
@@ -225,11 +236,11 @@ function Home() {
                 </div>
             </section>
 
-            <section className="home-pricing p-box">
+            <section className="home-pricing">
                 <div className="pri-title flex">
                     <div className="box-title">
                         <h4 className="sub-title">Pacotes</h4>
-                        <h2 className="title">Stop selling. Start helping.</h2>
+                        <h2 className="title">Nós conectamos pessoas!</h2>
                     </div>
                 </div>
                 <div className="list grid">
@@ -276,27 +287,15 @@ function Home() {
                 </div>
             </section>
 
-            <section className="cta">
+            <section className="cta p-box">
                 <h2 className="title">
                     Algum <span className="yellow">projeto</span> em mente? Vamos bater um papo 
                     e trazer negócio para o 
                     <span className="yellow"> mundo digital!</span>
                 </h2>
-                <Link href="/contato">
+                <Link href="https://api.whatsapp.com/send?phone=551140406422">
                     <a className="btn btn-blue">Contato</a>
                 </Link>
-            </section>
-
-            <section className="testimonials p-box flex">
-                <div className="testimonial-area">
-                    <div className="testmonial-slick-wrapper">
-                        <Testmonials></Testmonials>  
-                    </div>       
-                </div>
-                <div className="box-title">
-                    <h4 className="sub-title">Depoimentos</h4>
-                    <h2 className="title">Authenticity, honesty, and personal voice</h2>
-                </div> 
             </section>
 
             <section className="home-blog container">
@@ -315,7 +314,7 @@ function Home() {
                                     height="280"
                                 />
                                 <div className="text">
-                                    <p className="title">You are free to choose what you want</p>
+                                    <p className="title">Como aplicar o Marketing 4.0 na prática</p>
                                     <p className="meta"><span className="date">25 de Dez, 2020</span> por <span className="author yellow">Works Midia</span></p>
                                 </div>
                             </a>
@@ -331,7 +330,7 @@ function Home() {
                                     height="280"
                                 />
                                 <div className="text">
-                                    <p className="title">You are free to choose what you want</p>
+                                    <p className="title">Como o tempo de carregamento impacta nas vendas online?</p>
                                     <p className="meta"><span className="date">25 de Dez, 2020</span> por <span className="author yellow">Works Midia</span></p>
                                 </div>
                             </a>
@@ -347,7 +346,7 @@ function Home() {
                                     height="280"
                                 />
                                 <div className="text">
-                                    <p className="title">You are free to choose what you want</p>
+                                    <p className="title">Se relacionamento com seu cliente na atualidade</p>
                                     <p className="meta"><span className="date">25 de Dez, 2020</span> por <span className="author yellow">Works Midia</span></p>
                                 </div>
                             </a>
