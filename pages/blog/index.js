@@ -1,7 +1,7 @@
 import Layout from "../../components/layout"
 import Post from "../../components/post"
 
-function Portfolio() {
+function Blog() {
     return (
         <Layout title="Blog | Works Midia">
             <section className="posts container">
@@ -54,4 +54,4 @@ function Portfolio() {
     )
 }
 
-export default Portfolio
+export default Blog

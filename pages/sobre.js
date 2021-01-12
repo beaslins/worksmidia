@@ -18,17 +18,6 @@ function Sobre() {
                     </div>
                 </div>
             </section>
-            <section className="testimonials flex">
-                <div className="testimonial-area">
-                    <div className="testmonial-slick-wrapper">
-                    <Testmonials/>  
-                    </div>       
-                </div>
-                <div className="box-title">
-                    <h4 className="sub-title">Depoimentos</h4>
-                    <h2 className="title">Authenticity, honesty, and personal voice</h2>
-                </div> 
-            </section>
         </Layout>
     )
 }

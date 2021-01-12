@@ -39,14 +39,15 @@ function Home() {
     return (
         <Layout>
             <section className="home-banner flex">
-                <div className="content">
-                    <div className="box-title">
+                <div className="box-title">
+                    <div>
                         <h1 className="title">Conectando <span className="yellow">pessoas</span> <span className="block">através da <span className="yellow">tecnologia!</span></span></h1>
                         <Link href="#contato">
                             <a className="btn btn-blue">Saiba mais</a>
                         </Link>
                     </div>
                 </div>
+                <div className="home-image"></div>
             </section>
 
             <section className="home-whyus">
@@ -114,52 +115,7 @@ function Home() {
                 </div>
             </section>
 
-            <section className="home-clients container">
-                <Horizontal responsive={responsive} arrows={false}>
-                    <div className="client flex flex-centered">
-                        <Image 
-                            src="/images/clientfive.png"
-                            alt="Pampus"
-                            width="87"
-                            height="50"
-                        />
-                    </div>
-                    <div className="client flex flex-centered">
-                        <Image 
-                            src="/images/clienttwo.png"
-                            alt="Nohar Steak Bar"
-                            width="133"
-                            height="50"
-                        />
-                    </div>
-                    <div className="client flex flex-centered">
-                        <Image 
-                            src="/images/clientthree.png"
-                            alt="Levitatur"
-                            width="96"
-                            height="50"
-                        />
-                    </div>
-                    <div className="client flex flex-centered">
-                        <Image 
-                            src="/images/clientfour.png"
-                            alt="AMIB"
-                            width="168"
-                            height="50"
-                        />
-                    </div>
-                    <div className="client flex flex-centered">
-                        <Image 
-                            src="/images/clientone.png"
-                            alt="AUA News"
-                            width="325"
-                            height="50"
-                        />
-                    </div>
-                </Horizontal>
-            </section>
-
-            <section className="home-portfolio p-box">
+            <section className="home-portfolio">
                 <div className="port-title flex">
                     <div className="box-title">
                         <h4 className="sub-title">Portfólio</h4>
@@ -236,7 +192,52 @@ function Home() {
                 </div>
             </section>
 
-            <section className="home-pricing">
+            <section className="home-clients container p-box">
+                <Horizontal responsive={responsive} arrows={true}>
+                    <div className="client flex flex-centered">
+                        <Image 
+                            src="/images/clientfive.png"
+                            alt="Pampus"
+                            width="87"
+                            height="50"
+                        />
+                    </div>
+                    <div className="client flex flex-centered">
+                        <Image 
+                            src="/images/clienttwo.png"
+                            alt="Nohar Steak Bar"
+                            width="133"
+                            height="50"
+                        />
+                    </div>
+                    <div className="client flex flex-centered">
+                        <Image 
+                            src="/images/clientthree.png"
+                            alt="Levitatur"
+                            width="96"
+                            height="50"
+                        />
+                    </div>
+                    <div className="client flex flex-centered">
+                        <Image 
+                            src="/images/clientfour.png"
+                            alt="AMIB"
+                            width="168"
+                            height="50"
+                        />
+                    </div>
+                    <div className="client flex flex-centered">
+                        <Image 
+                            src="/images/clientone.png"
+                            alt="AUA News"
+                            width="325"
+                            height="50"
+                        />
+                    </div>
+                </Horizontal>
+            </section>
+
+            {/** <section className="home-pricing">
                 <div className="pri-title flex">
                     <div className="box-title">
                         <h4 className="sub-title">Pacotes</h4>
@@ -285,9 +286,9 @@ function Home() {
                         </ul>
                     </div>
                 </div>
-            </section>
+            </section>*/}
 
-            <section className="cta p-box">
+            <section className="cta">
                 <h2 className="title">
                     Algum <span className="yellow">projeto</span> em mente? Vamos bater um papo 
                     e trazer negócio para o 

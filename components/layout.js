@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 
 import Head from 'next/head'
 import Link from 'next/link'
@@ -10,11 +10,19 @@ import { FaFacebookF, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 export default function Layout({children, title = 'Home | Works Midia'}) {
 
     // Menu
-    const [showMe, setShowMe] = useState(false);
+    const [showMe, setShowMe] = useState(false)
     function toggle(){
-        console.log('aqui')
-      setShowMe(!showMe);
+      console.log('aqui')
+      setShowMe(!showMe)
     }
+
+    // Menu Scroll
+    const [scroll, setScroll] = useState(false)
+        useEffect(() => {
+            window.addEventListener("scroll", () => {
+            setScroll(window.scrollY > 50)
+        })
+    }, [])
 
     return (
         <>
@@ -37,7 +45,7 @@ export default function Layout({children, title = 'Home | Works Midia'}) {
                 <meta property="og:description" content=""/>
                 <meta property="og:image" content=""/>
             </Head>
-            <header>
+            <header className={scroll ? "bg-white" : ""}>
                 <div className="container flex">
                     <Link href="/">
                         <a className="logo">
@@ -77,11 +85,11 @@ export default function Layout({children, title = 'Home | Works Midia'}) {
                             </Link>                        
                             <Link href="/blog">
                                 <a>Blog</a>
-                            </Link>
-                            <Link href="/contato">
-                                <a className="btn btn-blue">Contato</a>
                             </Link>                        
                         </nav>
+                        <Link href="/contato">
+                                <a className="btn btn-blue">Contato</a>
+                        </Link>
                     </div>
                 </div>
             </header>
