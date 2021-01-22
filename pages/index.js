@@ -105,7 +105,7 @@ function Home() {
                         <div className="box-title">
                             <h4 className="sub-title">Serviços</h4>
                             <h2 className="title">Soluções arrojadas, de alto padrão e fácil acesso</h2>
-                            <p>Nossa paixão é por ajudar empresas a divulgarem os seus negócios e com isso ajudarem mais pessoas com os seus produtos, serviços e conteúdos.</p>
+                            {/*<p>Nossa paixão é por ajudar empresas a divulgarem os seus negócios e com isso ajudarem mais pessoas com os seus produtos, serviços e conteúdos.</p>*/}
                         </div>
 
                         <div className="services-list">

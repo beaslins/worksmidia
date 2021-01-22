@@ -1,7 +1,7 @@
 /* Home */
 section.home-banner {
     height: calc(100vh - 90px);
-    align-items: center;
+    align-items: flex-start;
 
     display: grid;
     grid-template-columns: 50% 50%;
@@ -12,6 +12,8 @@ section.home-banner div.box-title {
     margin-left: auto;
     padding-right: 5em;
     width: 70%;
+
+    margin-top: 10em;
 }
 section.home-banner div.home-image img.image {
     width: 100%;
@@ -32,10 +34,7 @@ section.home-banner h1.title {
     line-height: 1;
     margin-bottom: 0.4em;
 }
-section.home-banner {
-    align-items: center;
-    justify-content: space-between;
-}
+
 
 section.home-whyus {
     padding-top: 5em;
@@ -116,9 +115,10 @@ section.home-whyus .icon {
 /* End Bases */
 
 section.home-services {
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     padding-top: 10em;
+    margin-bottom: 5em;
 }
 section.home-services div.content, section.home-services div.image {
     width: 50%;
