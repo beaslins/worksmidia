@@ -3,10 +3,11 @@ import Image from "next/image"
 
 import Layout from "../components/layout"
 import Testmonials from "../components/testmonials"
+import Contact from "../components/contact"
 
 import { motion } from "framer-motion"
 
-import { FaLightbulb, FaLaptop, FaMobile, FaShareAlt } from 'react-icons/fa';
+import { FaLightbulb, FaLaptop, FaMobile, FaShareAlt, FaWhatsapp, FaFacebookF, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 
 import Horizontal from "react-multi-carousel"
 import "react-multi-carousel/lib/styles.css"
@@ -38,45 +39,67 @@ const responsive = {
 function Home() {
     return (
         <Layout>
-            <section className="home-banner flex">
+            <section className="home-banner">
                 <div className="box-title">
                     <div>
-                        <h1 className="title">Conectando <span className="yellow">pessoas</span> <span className="block">através da <span className="yellow">tecnologia!</span></span></h1>
-                        <Link href="#contato">
-                            <a className="btn btn-blue">Saiba mais</a>
-                        </Link>
+                        <h1 className="title">
+                            Conectando <span className="yellow">pessoas</span> 
+                            <span className="block">através da <span className="yellow">tecnologia!</span></span>
+                        </h1>
+                        <p>Hoje a internet figura como um dos principais meios de comunicação do mundo e sua empresa não pode ficar de fora deste poderoso mecanismo de informação.</p>
+                        <div className="flex ctas">
+                            <Link href="https://api.whatsapp.com/send?phone=551140406422">
+                                <a className="btn btn-blue flex"><FaWhatsapp /> <span>Fale conosco</span></a>
+                            </Link>
+                            <Link href="#portfolio">
+                                <a className="btn btn-yellow ml-2">Portfólio</a>
+                            </Link>
+                        </div>
+                        <div className="home-social">
+                            <Link href="" target="_blank">
+                                <a><FaFacebookF className="icon" /></a>
+                            </Link>
+                            <Link href="" target="_blank">
+                                <a><FaInstagram className="icon" /></a>
+                            </Link>
+                            <Link href="" target="_blank">
+                                <a><FaLinkedinIn className="icon" /></a>
+                            </Link>
+                        </div>
                     </div>
                 </div>
-                <div className="home-image"></div>
+                <div className="home-image">
+                    <img className="image" src="/images/homequadrada.jpg"/>
+                </div>
             </section>
 
-            <section className="home-whyus">
+            {/**<section className="home-whyus">
                 <div className="container flex">
                     <div className="item flex">
-                        {/** <div className="base base-one flex flex-centered">
+                        <div className="base base-one flex flex-centered">
                             <FaLightbulb className="icon" />
-                        </div> */}
+                        </div>
                         <h3 className="title">Missão</h3>
                         <p>Proporcionar aos clientes o que tem de mais moderno em Tecnologia e Marketing, com excelência em inovação.</p>
                     </div>
                     <div className="item flex">
-                        {/** <div className="base base-two flex flex-centered">
+                        <div className="base base-two flex flex-centered">
                             <FaLightbulb className="icon" />
-                        </div> */}
+                        </div>
                         <h3 className="title">Visão</h3>
                         <p>Ser empresa referência em tecnologia e soluções de marketing digital aos nossos clientes até 2023.</p>
                     </div>
                     <div className="item flex">
-                        {/** <div className="base base-three flex flex-centered">
+                        <div className="base base-three flex flex-centered">
                             <FaLightbulb className="icon" />
-                        </div> */}
+                        </div>
                         <h3 className="title">Valores</h3>
                         <p>Desenvolver soluções arrojadas, de alto padrão e fácil acesso.</p>
                     </div>
                 </div>
-            </section>
+            </section>*/}
 
-            <section className="home-services flex p-box">
+            <section className="home-services flex">
                 <div className="content">
                     <div className="box">
                         <div className="box-title">
@@ -97,7 +120,7 @@ function Home() {
                                 <div><FaMobile className="icon" /></div>
                                 <div>
                                     <h3 className="title">Desenvolvimento de aplicativos mobile</h3>
-                                    <p>Aplicativos mobile personalizados para qualquer tipo de negócio, sistema simples e intuitivo para gerenciamento através de um único clique.</p>
+                                    <p>Aplicativos mobile personalizados, não importa o tipo de negócio, nós temos a melhor solução.</p>
                                 </div>
                             </div>
                             <div className="item flex">
@@ -111,15 +134,15 @@ function Home() {
                     </div>
                 </div>
                 <div className="image">
-                    <motion.img src="/images/services.png" animate={{ z: 100 }} transition={{ type: "spring", fade: 0.5}}/>
+                    <motion.img src="/images/services-pampus.png" animate={{ z: 100 }} transition={{ type: "spring", fade: 0.5}}/>
                 </div>
             </section>
 
-            <section className="home-portfolio">
+            <section id="portfolio" className="home-portfolio">
                 <div className="port-title flex">
                     <div className="box-title">
                         <h4 className="sub-title">Portfólio</h4>
-                        <h2 className="title">Usamos a tecnologia para aproximar negócios à pessoas.</h2>
+                        <h2 className="title">Empresas que confiam no trabalho da Works Midia</h2>
                     </div>
                 </div>
                 <div className="works">
@@ -196,42 +219,42 @@ function Home() {
                 <Horizontal responsive={responsive} arrows={true}>
                     <div className="client flex flex-centered">
                         <Image 
-                            src="/images/clientfive.png"
+                            src="/images/pampus.png"
                             alt="Pampus"
-                            width="87"
-                            height="50"
+                            width="105"
+                            height="41"
                         />
                     </div>
                     <div className="client flex flex-centered">
                         <Image 
-                            src="/images/clienttwo.png"
+                            src="/images/nohar.png"
                             alt="Nohar Steak Bar"
-                            width="133"
-                            height="50"
+                            width="105"
+                            height="41"
                         />
                     </div>
                     <div className="client flex flex-centered">
                         <Image 
-                            src="/images/clientthree.png"
+                            src="/images/levitatur.png"
                             alt="Levitatur"
-                            width="96"
-                            height="50"
+                            width="105"
+                            height="41"
                         />
                     </div>
                     <div className="client flex flex-centered">
                         <Image 
-                            src="/images/clientfour.png"
+                            src="/images/amib.png"
                             alt="AMIB"
-                            width="168"
-                            height="50"
+                            width="105"
+                            height="41"
                         />
                     </div>
                     <div className="client flex flex-centered">
                         <Image 
-                            src="/images/clientone.png"
+                            src="/images/aua.png"
                             alt="AUA News"
-                            width="325"
-                            height="50"
+                            width="105"
+                            height="41"
                         />
                     </div>
                 </Horizontal>
@@ -295,8 +318,35 @@ function Home() {
                     <span className="yellow"> mundo digital!</span>
                 </h2>
                 <Link href="https://api.whatsapp.com/send?phone=551140406422">
-                    <a className="btn btn-blue">Contato</a>
+                    <a className="btn btn-blue flex"><FaWhatsapp className="icon" /> <span>Fale conosco via whatsapp</span></a>
                 </Link>
+
+                <div className="home-cont-form">
+                    <form>
+                        <div className="home-input-group">
+                            <input 
+                                type="text" 
+                                value="" 
+                                placeholder="Nome" 
+                            />
+                            <input 
+                                type="text" 
+                                value="" 
+                                placeholder="E-mail" 
+                            />
+                        
+                            <input 
+                                type="text" 
+                                value="" 
+                                placeholder="Whatsapp" 
+                            />
+                        </div>
+                        <div className="home-input-group">
+                            <textarea placeholder="Mensagem"></textarea>
+                        </div>
+                        <button className="btn btn-blue" type="submit">Enviar</button>
+                    </form>
+                </div>
             </section>
 
             <section className="home-blog container">

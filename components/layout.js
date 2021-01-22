@@ -86,10 +86,10 @@ export default function Layout({children, title = 'Home | Works Midia'}) {
                             <Link href="/blog">
                                 <a>Blog</a>
                             </Link>                        
-                        </nav>
-                        <Link href="/contato">
+                            <Link href="/contato">
                                 <a className="btn btn-blue">Contato</a>
-                        </Link>
+                            </Link>
+                        </nav>
                     </div>
                 </div>
             </header>
