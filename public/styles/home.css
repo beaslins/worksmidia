@@ -113,24 +113,32 @@ section.home-whyus .icon {
 /* End Bases */
 
 section.home-services {
-    align-items: center;
-    justify-content: center;
     padding-top: 10em;
     margin-bottom: 5em;
 }
+section.home-services div.flex {
+    align-items: center;
+    justify-content: center;
+}
 section.home-services div.content, section.home-services div.image {
-    width: 50%;
     display: flex;
     justify-content: flex-end;
+}
+section.home-services div.content {
+    width: 60%;
+}
+section.home-services div.image {
+    width: 40%;
 }
 section.home-services div.content div.box {
     padding-right: 5em;
     width: 70%;
 }
-section.home-services div.content div.box div.box-title {
-    margin-bottom: 2.5em;
+section.home-services div.box-title {
+    margin-bottom: 5em;
+    text-align: center;
 }
-section.home-services div.content div.box div.box-title h2 {
+section.home-services div.box-title h2 {
     margin-bottom: 0.5em;
 }
 section.home-services div.content div.item {

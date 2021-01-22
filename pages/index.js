@@ -99,42 +99,43 @@ function Home() {
                 </div>
             </section>*/}
 
-            <section className="home-services flex">
-                <div className="content">
-                    <div className="box">
-                        <div className="box-title">
-                            <h4 className="sub-title">Serviços</h4>
-                            <h2 className="title">Soluções arrojadas, de alto padrão e fácil acesso</h2>
-                            {/*<p>Nossa paixão é por ajudar empresas a divulgarem os seus negócios e com isso ajudarem mais pessoas com os seus produtos, serviços e conteúdos.</p>*/}
-                        </div>
+            <section className="home-services">
+                <div className="box-title">
+                    <h4 className="sub-title">Serviços</h4>
+                    <h2 className="title">Soluções arrojadas, <span className="block">de alto padrão e fácil acesso</span></h2>
+                </div>
+                <div className="flex">
+                    <div className="content">
+                        <div className="box">
 
-                        <div className="services-list">
-                            <div className="item flex">
-                                <div><FaLaptop className="icon" /></div>
-                                <div>
-                                    <h3 className="title">Desenvolvimento de Site</h3>
-                                    <p>Desenvolvimento de sites para todos os tipos de negócios, entendendo desde o publico alvo até a alma do negocio.</p>
+                            <div className="services-list">
+                                <div className="item flex">
+                                    <div><FaLaptop className="icon" /></div>
+                                    <div>
+                                        <h3 className="title">Desenvolvimento de Site</h3>
+                                        <p>Desenvolvimento de sites para todos os tipos de negócios, entendendo desde o publico alvo até a alma do negocio.</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div className="item flex">
-                                <div><FaMobile className="icon" /></div>
-                                <div>
-                                    <h3 className="title">Desenvolvimento de aplicativos mobile</h3>
-                                    <p>Aplicativos mobile personalizados, não importa o tipo de negócio, nós temos a melhor solução.</p>
+                                <div className="item flex">
+                                    <div><FaMobile className="icon" /></div>
+                                    <div>
+                                        <h3 className="title">Desenvolvimento de aplicativos mobile</h3>
+                                        <p>Aplicativos mobile personalizados, não importa o tipo de negócio, nós temos a melhor solução.</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div className="item flex">
-                                <div><FaShareAlt className="icon" /></div>
-                                <div>
-                                    <h3 className="title">Gestão de mídias sociais</h3>
-                                    <p>Criação, conteúdo, analise e planejamendo das suas páginas nas redes sociais (Facebook e Instagram).</p>
+                                <div className="item flex">
+                                    <div><FaShareAlt className="icon" /></div>
+                                    <div>
+                                        <h3 className="title">Gestão de mídias sociais</h3>
+                                        <p>Criação, conteúdo, analise e planejamendo das suas páginas nas redes sociais (Facebook e Instagram).</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="image">
-                    <motion.img src="/images/services-pampus.png" animate={{ z: 100 }} transition={{ type: "spring", fade: 0.5}}/>
+                    <div className="image">
+                        <motion.img src="/images/services-pampus.png" animate={{ z: 100 }} transition={{ type: "spring", fade: 0.5}}/>
+                    </div>
                 </div>
             </section>
 
