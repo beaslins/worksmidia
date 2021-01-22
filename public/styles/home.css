@@ -1,7 +1,7 @@
 /* Home */
 section.home-banner {
     height: calc(100vh - 90px);
-    align-items: flex-start;
+    align-items: center;
 
     display: grid;
     grid-template-columns: 50% 50%;
@@ -11,9 +11,7 @@ section.home-banner {
 section.home-banner div.box-title {
     margin-left: auto;
     padding-right: 5em;
-    width: 70%;
-
-    margin-top: 5em;
+    width: 90%;
 }
 section.home-banner div.home-image img.image {
     width: 100%;
@@ -29,7 +27,7 @@ section.home-banner div.box-title div.callus {
     margin-left: 2em;
 }
 section.home-banner h1.title {
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 700;
     line-height: 1;
     margin-bottom: 0.4em;
