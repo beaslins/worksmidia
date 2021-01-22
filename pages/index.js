@@ -140,10 +140,10 @@ function Home() {
             </section>
 
             <section id="portfolio" className="home-portfolio">
-                <div className="port-title flex">
+                <div className="port-title">
                     <div className="box-title">
                         <h4 className="sub-title">Portfólio</h4>
-                        <h2 className="title">Empresas que confiam no trabalho da Works Midia</h2>
+                        <h2 className="title">Empresas que confiam <span className="block">no trabalho da Works Midia</span></h2>
                     </div>
                 </div>
                 <div className="works">

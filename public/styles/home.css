@@ -171,12 +171,11 @@ section.home-clients button::before {
 }
 
 section.home-portfolio div.port-title {
-    width: 50%;
-    justify-content: flex-end;
     margin-bottom: 5em;
 }
 section.home-portfolio div.port-title div.box-title {
-    width: 70%;
+    width: 100%;
+    text-align: center;
 }
 section.home-portfolio div.works ul li + li  {
     margin-left: 1.5em;
