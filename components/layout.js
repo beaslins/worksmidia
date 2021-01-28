@@ -74,6 +74,9 @@ export default function Layout({children, title = 'Home | Works Midia'}) {
                                     />
                                 </a>
                             </Link>
+                            <Link href="/">
+                                <a>Home</a>
+                            </Link>
                             <Link href="/sobre">
                                 <a>Sobre</a>
                             </Link>                        

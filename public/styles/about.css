@@ -1,6 +1,6 @@
 /* Contact */
 section.about {
-    margin-top: 10.6em; /* 90px from header menu + 10em*/
+    margin-top: 5.6em; /* 90px from header menu + 10em*/
     align-items: center;
     margin-bottom: 10em;
 }
@@ -19,9 +19,21 @@ section.about h1.title {
     line-height: 1;
     margin-bottom: 1em;
 }
+section.about h1 span {
+    margin-top: 0.5em;
+}
 section.about div.flex {
     align-items: center;
     justify-content: space-between;
+}
+section.about p {
+    margin-bottom: 0.7em;
+}
+
+section.about div.ctas {
+    margin-top: 2em;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 div.video {

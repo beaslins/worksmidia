@@ -233,7 +233,7 @@ section.cta h2 {
 section.cta a.flex {
     align-items: center;
     justify-content: center;
-    width: 40%;
+    width: 50%;
     margin: 0 auto;
 }
 section.cta a.flex .icon {

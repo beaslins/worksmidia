@@ -314,9 +314,7 @@ function Home() {
 
             <section className="cta">
                 <h2 className="title">
-                    Algum <span className="yellow">projeto</span> em mente? Vamos bater um papo 
-                    e trazer negócio para o 
-                    <span className="yellow"> mundo digital!</span>
+                    Algum <span className="yellow">projeto</span> em mente?
                 </h2>
                 <Link href="https://api.whatsapp.com/send?phone=551140406422">
                     <a className="btn btn-blue flex"><FaWhatsapp className="icon" /> <span>Fale conosco via whatsapp</span></a>
