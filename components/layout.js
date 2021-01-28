@@ -107,7 +107,7 @@ export default function Layout({children, title = 'Home | Works Midia'}) {
                                 width="150"
                                 height="50"
                             />
-                            <p>Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses differently than mine. You don't get sick, I do. That's also clear. But for some reason.</p>
+                            <p>A Works Mídia é uma empresa de tecnologia e marketing que tem como objetivo principal levar os nossos clientes para o mundo digital.</p>
                         </div>
                         <div className="social">
                             <p className="title">Redes Sociais</p>
