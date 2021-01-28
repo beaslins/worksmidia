@@ -25,7 +25,7 @@ function Sobre() {
 
                         <div className="flex ctas">
                             <Link href="https://api.whatsapp.com/send?phone=551140406422">
-                                <a className="btn btn-blue flex"><FaWhatsapp /> <span>Agendar uma reunião</span></a>
+                                <a className="btn btn-blue flex"><FaWhatsapp /> <span>Agendar reunião</span></a>
                             </Link>
                             <Link href="/servicos">
                                 <a className="btn btn-yellow ml-2">Serviços</a>
