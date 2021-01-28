@@ -110,6 +110,13 @@ function Home() {
 
                             <div className="services-list">
                                 <div className="item flex">
+                                    <div><FaShareAlt className="icon" /></div>
+                                    <div>
+                                        <h3 className="title">Marketing Digital</h3>
+                                        <p>Planejamento de marketing, gestão de redes sociais, criação de e-mail marketing, artes para mídias sociais, anúncios (Facebook, Instagram e Google Adwords)</p>
+                                    </div>
+                                </div>
+                                <div className="item flex">
                                     <div><FaLaptop className="icon" /></div>
                                     <div>
                                         <h3 className="title">Desenvolvimento de Site</h3>
@@ -121,13 +128,6 @@ function Home() {
                                     <div>
                                         <h3 className="title">Desenvolvimento de aplicativos mobile</h3>
                                         <p>Aplicativos mobile personalizados, não importa o tipo de negócio, nós temos a melhor solução.</p>
-                                    </div>
-                                </div>
-                                <div className="item flex">
-                                    <div><FaShareAlt className="icon" /></div>
-                                    <div>
-                                        <h3 className="title">Gestão de mídias sociais</h3>
-                                        <p>Criação, conteúdo, analise e planejamendo das suas páginas nas redes sociais (Facebook e Instagram).</p>
                                     </div>
                                 </div>
                             </div>

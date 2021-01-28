@@ -11,77 +11,30 @@ function Servicos() {
                     <h4 className="sub-title">Serviços</h4>
                     <h1 className="title">Content marketing is a <span className="block">commitment</span></h1>
                 </div>
+
+                <div className="service">
+                    <h2 className="title">Gestão de redes sociais</h2>
+                    <p>Não é novidade para ninguém que as redes sociais devem fazer parte da estratégia de qualquer empresa, independentemente do tipo de segmento e tamanho. Em 2020 com a pandemia o papel das redes sociais ficou ainda mais presente na vida das pessoas, com o distanciamento social as plataformas fizeram o papel de nos manter conectados, mesmo distantes.</p>
+                    <p>Segundo a pesquisa da Kantar, as redes sociais tiveram um crescimento de uso de 40% durante a pandemia. O Facebook tem cerca de 2,7 bilhões de usuários e o Instagram 1,1 bilhões de usuário, ou seja, grande parte da população mundial está conectada em uma dessas plataformas.</p>
+                    <p>Sua empresa não pode ficar fora desse crescimento. Veja como a Works Midia pode ajudar a sua empresa ter presença no mundo digital:</p>
+                </div>
                 <div className="ser-list grid">
                     <Service 
-                        icon={<FaLightbulb />}
-                        title="Trend Design" 
-                        description="Why money's in that office, right? If she start giving means some bullet about ain't there."
+                        icon={<FaLightbulb />} 
+                        description="Criação e configuração das páginas nas redes sociais"
+                    />
+                    <Service 
+                        icon={<FaLightbulb />} 
+                        description="Planejamento"
                     />
                     <Service 
                         icon={<FaLightbulb />}
-                        title="Branding" 
-                        description="Why money's in that office, right? If she start giving means some bullet about ain't there."
+                        description="Análise dos seus principais concorrentes;"
                     />
                     <Service 
                         icon={<FaLightbulb />}
-                        title="Product Design" 
-                        description="Why money's in that office, right? If she start giving means some bullet about ain't there."
+                        description="Criação de artes para redes sociais com tamanhos personalizados de acordo com cada perfil;"
                     />
-                    <Service 
-                        icon={<FaLightbulb />}
-                        title="Animation" 
-                        description="Why money's in that office, right? If she start giving means some bullet about ain't there."
-                    />
-                </div>
-            </section>
-            <section className="ser-pricing p-box container">
-                <div className="pri-title flex">
-                    <div className="box-title">
-                        <h4 className="sub-title">Pacotes</h4>
-                        <h2 className="title">Stop selling. Start helping.</h2>
-                    </div>
-                </div>
-                <div className="list">
-                    <div className="item">
-                        <div className="header">Pacote X</div>
-                        <ul>
-                            <li className="service">Strategic Alliance</li>
-                            <li className="service">Growth Expansion</li>
-                            <li className="service">Business Planning</li>
-                            <li className="service">Contract Negotiation</li>
-                            <li className="service">Market Positioning</li>
-                        </ul>
-                    </div>
-                    <div className="item active">
-                        <div className="header">Pacote X</div>
-                        <ul>
-                            <li className="service">Strategic Alliance</li>
-                            <li className="service">Growth Expansion</li>
-                            <li className="service">Business Planning</li>
-                            <li className="service">Contract Negotiation</li>
-                            <li className="service">Market Positioning</li>
-                        </ul>
-                    </div>
-                    <div className="item">
-                        <div className="header">Pacote X</div>
-                        <ul>
-                            <li className="service">Strategic Alliance</li>
-                            <li className="service">Growth Expansion</li>
-                            <li className="service">Business Planning</li>
-                            <li className="service">Contract Negotiation</li>
-                            <li className="service">Market Positioning</li>
-                        </ul>
-                    </div>
-                    <div className="item">
-                        <div className="header">Pacote X</div>
-                        <ul>
-                            <li className="service">Strategic Alliance</li>
-                            <li className="service">Growth Expansion</li>
-                            <li className="service">Business Planning</li>
-                            <li className="service">Contract Negotiation</li>
-                            <li className="service">Market Positioning</li>
-                        </ul>
-                    </div>
                 </div>
             </section>
         </Layout>

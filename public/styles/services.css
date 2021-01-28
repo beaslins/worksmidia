@@ -8,10 +8,10 @@ section.services .box-title {
 }
 .grid {
     display: grid;
-    grid-template-columns: repeat(2, 50%);
+    grid-template-columns: repeat(4, 25%);
     gap: 1em;
     justify-content: stretch;
-    align-items: center;
+    align-items: stretch;
 }
 .ser-list div {
     margin-bottom: 1em;
