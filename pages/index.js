@@ -149,68 +149,95 @@ function Home() {
                 <div className="works">
                     <Horizontal responsive={responsive} partialVisible renderButtonGroupOutside={true}>
                         <div className="work">
-                            <Image 
-                                src="/images/port1.jpg"
-                                alt="Cliente 1"
-                                layout="responsive"
-                                width="570"
-                                height="420"
-                            />
+                            <Link href="portfolio/desenvolvimento-de-site-aua-news">
+                               <a>
+                                    <Image 
+                                        src="/images/port1.jpg"
+                                        alt="AUA News"
+                                        layout="responsive"
+                                        width="570"
+                                        height="420"
+                                    />
+                                </a>
+                            </Link>
                         </div>
                         <div className="work">
-                            <Image 
-                                src="/images/port2.jpg"
-                                alt="Cliente 2"
-                                layout="responsive"
-                                width="570"
-                                height="420"
-                            />
+                            <Link href="portfolio/desenvolvimento-de-aplicativo-levitatur">
+                               <a>
+                                <Image 
+                                    src="/images/port2.jpg"
+                                    alt="Levitatur"
+                                    layout="responsive"
+                                    width="570"
+                                    height="420"
+                                />
+                                </a>
+                            </Link>
                         </div>
                         <div className="work">
-                            <Image 
-                                src="/images/port3.jpg"
-                                alt="Cliente 3"
-                                layout="responsive"
-                                width="570"
-                                height="420"
-                            />
+                            <Link href="portfolio/desenvolvimento-de-site-nohar">
+                               <a>
+                                <Image 
+                                    src="/images/port3.jpg"
+                                    alt="Nohar Steak Bar"
+                                    layout="responsive"
+                                    width="570"
+                                    height="420"
+                                />
+                                </a>
+                            </Link>
                         </div>
                         <div className="work">
-                            <Image 
-                                src="/images/port4.jpg"
-                                alt="Cliente 4"
-                                layout="responsive"
-                                width="570"
-                                height="420"
-                            />
+                            <Link href="portfolio/desenvolvimento-de-aplicativo-sbacv">
+                               <a>
+                                <Image 
+                                    src="/images/port4.jpg"
+                                    alt="SBACV"
+                                    layout="responsive"
+                                    width="570"
+                                    height="420"
+                                />
+                                </a>
+                            </Link>
                         </div>
                         <div className="work">
-                            <Image 
-                                src="/images/port5.jpg"
-                                alt="Cliente 1"
-                                layout="responsive"
-                                width="570"
-                                height="420"
-                            />
-                        </div>
-                        
+                            <Link href="portfolio/desenvolvimento-de-site-cirurgia">
+                               <a>
+                                <Image 
+                                    src="/images/port5.jpg"
+                                    alt="Curso Hands On em cadáveres"
+                                    layout="responsive"
+                                    width="570"
+                                    height="420"
+                                />
+                                </a>
+                            </Link>
+                        </div>                        
                         <div className="work">
-                            <Image 
-                                src="/images/port6.jpg"
-                                alt="Cliente 1"
-                                layout="responsive"
-                                width="570"
-                                height="420"
-                            />
+                            <Link href="portfolio/desenvolvimento-de-site-pampus">
+                               <a>
+                                <Image 
+                                    src="/images/port6.jpg"
+                                    alt="Pampus"
+                                    layout="responsive"
+                                    width="570"
+                                    height="420"
+                                />
+                                </a>
+                            </Link>
                         </div>
                         <div className="work">
-                            <Image 
-                                src="/images/port7.jpg"
-                                alt="Cliente 1"
-                                layout="responsive"
-                                width="570"
-                                height="420"
-                            />
+                            <Link href="portfolio/desenvolvimento-de-aplicativo-cbmi">
+                               <a>
+                                <Image 
+                                    src="/images/port7.jpg"
+                                    alt="CBMI"
+                                    layout="responsive"
+                                    width="570"
+                                    height="420"
+                                />
+                                </a>
+                            </Link>
                         </div>
                     </Horizontal>
                 </div>
@@ -261,57 +288,6 @@ function Home() {
                 </Horizontal>
             </section>
 
-            {/** <section className="home-pricing">
-                <div className="pri-title flex">
-                    <div className="box-title">
-                        <h4 className="sub-title">Pacotes</h4>
-                        <h2 className="title">Nós conectamos pessoas!</h2>
-                    </div>
-                </div>
-                <div className="list grid">
-                    <div className="item">
-                        <div className="header">Pacote X</div>
-                        <ul>
-                            <li className="service">Strategic Alliance</li>
-                            <li className="service">Growth Expansion</li>
-                            <li className="service">Business Planning</li>
-                            <li className="service">Contract Negotiation</li>
-                            <li className="service">Market Positioning</li>
-                        </ul>
-                    </div>
-                    <div className="item active">
-                        <div className="header">Pacote X</div>
-                        <ul>
-                            <li className="service">Strategic Alliance</li>
-                            <li className="service">Growth Expansion</li>
-                            <li className="service">Business Planning</li>
-                            <li className="service">Contract Negotiation</li>
-                            <li className="service">Market Positioning</li>
-                        </ul>
-                    </div>
-                    <div className="item">
-                        <div className="header">Pacote X</div>
-                        <ul>
-                            <li className="service">Strategic Alliance</li>
-                            <li className="service">Growth Expansion</li>
-                            <li className="service">Business Planning</li>
-                            <li className="service">Contract Negotiation</li>
-                            <li className="service">Market Positioning</li>
-                        </ul>
-                    </div>
-                    <div className="item">
-                        <div className="header">Pacote X</div>
-                        <ul>
-                            <li className="service">Strategic Alliance</li>
-                            <li className="service">Growth Expansion</li>
-                            <li className="service">Business Planning</li>
-                            <li className="service">Contract Negotiation</li>
-                            <li className="service">Market Positioning</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>*/}
-
             <section className="cta">
                 <h2 className="title">
                     Algum <span className="yellow">projeto</span> em mente?
@@ -320,7 +296,7 @@ function Home() {
                     <a className="btn btn-blue flex"><FaWhatsapp className="icon" /> <span>Fale conosco via whatsapp</span></a>
                 </Link>
 
-                <div className="home-cont-form">
+                {/**<div className="home-cont-form">
                     <form>
                         <div className="home-input-group">
                             <input 
@@ -345,7 +321,7 @@ function Home() {
                         </div>
                         <button className="btn btn-blue" type="submit">Enviar</button>
                     </form>
-                </div>
+                </div>*/}
             </section>
 
             <section className="home-blog container">

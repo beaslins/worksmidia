@@ -1,6 +1,6 @@
 /* Blog */
 section.posts, section.blog-post {
-    margin-top: 10.6em; /* 90px from header menu + 10em*/
+    margin-top: 5.6em; /* 90px from header menu + 10em*/
 }
 section.posts div.grid {
     grid-template-columns: repeat(3, 33%);

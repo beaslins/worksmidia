@@ -8,7 +8,7 @@ export default function Work({image, title, type, link}) {
         <div className={style.work}>
             <Link href={link}>
                 <a className={style.link}>
-                    <img src={image} />
+                    <img src={image} title={title}/>
                     <div className={style.description}>
                         <div className={style.border}>
                             <h2 className={style.title}>{title}</h2>

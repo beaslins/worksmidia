@@ -342,10 +342,15 @@ section.testimonials div.box-title {
 
 @media screen and (max-width: 600px) {
     section.home-banner {
-        height: calc(50vh - 90px);
+        height: calc(100vh - 90px);
         padding-top: 90px;
+        display: block;
+        margin: 0 2em;
     }
-    
+    section.home-banner div.box-title {
+        width: 100%;
+        padding-right: 0;
+    }
     section.home-banner div.content {
         display: block;
         width: 100%;
@@ -355,11 +360,19 @@ section.testimonials div.box-title {
         width: 100%;
         padding-right: 0;
     }
+    section.home-banner div.box-title div.flex {
+        display: block;
+    }
     section.home-banner h1.title {
-        font-size: 45px;
+        font-size: 35px;
     }
     section.home-banner .image, section.home-services div.image {
         display: none;
+    }
+    section.home-banner .ctas .btn {
+        width: 100%;
+        display: block;
+        margin: 1em 0;
     }
 
     section.home-whyus div.flex {

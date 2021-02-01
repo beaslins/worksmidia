@@ -1,6 +1,6 @@
 /* Contact */
 section.portfolio {
-    margin-top: 10.6em; /* 90px from header menu + 10em*/
+    margin-top: 5.6em; /* 90px from header menu + 10em*/
     text-align: center;
     margin-bottom: 10em;
 }
@@ -13,14 +13,21 @@ section.portfolio {
 section.port-details {
     margin-top: 10.6em;
 }
+section.port-details div.images {
+    width: 40%;
+}
 section.port-details div.description {
     margin-left: 3em;
+    width: 50%;
+}
+section.port-details div.description p {
+    margin-bottom: 1em;
 }
 section.port-details div.description h2 {
     font-weight: 700;
     margin-bottom: 45px;
     font-size: 32px;
-    color: #293b5f;
+    color: #0077b7;
 }
 section.port-details div.description p.sub-title {
     font-size: 14px;
@@ -32,8 +39,21 @@ section.port-details div.description p.sub-title {
     color: #727272;
 }
 section.port-details div.description p.sub-text {
-    color: #293b5f;
+    color: #0077b7;
 }
+section.port-details div.description ul {
+    margin-bottom: 1em;
+}
+section.port-details div.description ul li + li {
+    margin-top: 1em;
+}
+section.port-details div.description ul li {
+    color: rgb(82, 81, 81);
+    font-weight: 500;
+    list-style-type: disc;
+    margin: 0 1em;
+}
+
 
 @media screen and (max-width: 600px) { 
     .mansory {

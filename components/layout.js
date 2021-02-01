@@ -89,7 +89,7 @@ export default function Layout({children, title = 'Home | Works Midia'}) {
                             <Link href="/blog">
                                 <a>Blog</a>
                             </Link>                        
-                            <Link href="/contato">
+                            <Link href="https://api.whatsapp.com/send?phone=551140406422">
                                 <a className="btn btn-blue">Contato</a>
                             </Link>
                         </nav>
