@@ -46,7 +46,7 @@ function Home() {
                             Conectando <span className="yellow">pessoas</span> 
                             <span className="block">através da <span className="yellow">tecnologia!</span></span>
                         </h1>
-                        <p>Hoje a internet figura como um dos principais meios de comunicação do mundo e sua empresa não pode ficar de fora deste poderoso mecanismo de informação.</p>
+                        <p>A tecnologia inovou a forma de conectar pessoas, criando novas formas de comunicação, diminuindo o distanciamento e agregando valor a todos! Uma boa estratégia de marketing digital com um planejamento, desenvolvimento e criação de website e aplicativos mobile, irão colocar a sua empresa à frente no mercado.</p>
                         <div className="flex ctas">
                             <Link href="https://api.whatsapp.com/send?phone=551140406422">
                                 <a className="btn btn-blue flex"><FaWhatsapp /> <span>Fale conosco</span></a>
