@@ -1,5 +1,9 @@
 import Layout from "../../components/layout"
 
+import { FaArrowLeft } from 'react-icons/fa';
+import Link from "next/link"
+
+
 function Details() {
     return (
         <Layout title="Portfólio | Works Midia">
@@ -22,12 +26,18 @@ function Details() {
                         <p>Entre outros.</p>
 
                         <p className="sub-title">Cliente</p>
-                        <p className="sub-text">Pampus</p>
+                        <p className="sub-text">Levitatur</p>
 
                         <p className="sub-title">Categoria</p>
                         <p className="sub-text">Desenvolvimento de site</p>
                     </div>
                 </div>
+                <Link href="/portfolio">
+                    <a className="link">
+                        <FaArrowLeft></FaArrowLeft>
+                        <span>Voltar</span>
+                    </a>
+                </Link>
             </section>
         </Layout>
     )

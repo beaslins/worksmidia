@@ -8,45 +8,45 @@ function Blog() {
                 <div className="grid">
                     <Post 
                         image="/images/b1.jpg"
-                        title="You are free to choose what you want"
-                        author="FATIMA MOHAMED"
-                        date="27 FEB, 2019"
-                        link="blog/blog-single"
+                        title="Como estar proximo ao seu cliente!"
+                        author="WORKS MIDIA"
+                        date="02 FEV, 2021"
+                        link="blog/com-estar-proximo-ao-seu-cliente"
                     />
                     <Post 
                         image="/images/b2.jpg"
-                        title="You are free to choose what you want"
-                        author="FATIMA MOHAMED"
-                        date="27 FEB, 2019"
-                        link="blog/blog-single"
+                        title="Qual a melhor estratégia de vendas?"
+                        author="WORKS MIDIA"
+                        date="02 FEV, 2021"
+                        link="blog/qual-a-melhor-estrategia-de-vendas"
                     />
                     <Post 
                         image="/images/b3.jpg"
-                        title="You are free to choose what you want"
-                        author="FATIMA MOHAMED"
-                        date="27 FEB, 2019"
-                        link="blog/blog-single"
+                        title="Está perdendo vendas e não sabe por quê?"
+                        author="WORKS MIDIA"
+                        date="02 FEV, 2021"
+                        link="blog/esta-perdendo-vendas-e-nao-sabe-por-que"
                     />
                     <Post 
                         image="/images/b4.jpg"
-                        title="You are free to choose what you want"
-                        author="FATIMA MOHAMED"
-                        date="27 FEB, 2019"
-                        link="blog/blog-single"
+                        title="Comprar seguidores no Instagram: Expectativa e Realidade"
+                        author="WORKS MIDIA"
+                        date="02 FEV, 2021"
+                        link="blog/comprar-seguidores-no-instagram-expectativa-e-realidade"
                     />
                     <Post 
                         image="/images/b5.jpg"
-                        title="You are free to choose what you want"
-                        author="FATIMA MOHAMED"
-                        date="27 FEB, 2019"
-                        link="blog/blog-single"
+                        title="Hash o que?"
+                        author="WORKS MIDIA"
+                        date="02 FEV, 2021"
+                        link="blog/hash-o-que"
                     />
                     <Post 
                         image="/images/b6.jpg"
-                        title="You are free to choose what you want"
-                        author="FATIMA MOHAMED"
-                        date="27 FEB, 2019"
-                        link="blog/blog-single"
+                        title="Fui procurar e não achei"
+                        author="WORKS MIDIA"
+                        date="02 FEV, 2021"
+                        link="blog/fui-procurar-e-nao-achei"
                     />
                 </div>
             </section>

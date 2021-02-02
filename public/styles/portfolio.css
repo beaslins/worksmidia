@@ -1,17 +1,33 @@
 /* Contact */
 section.portfolio {
-    margin-top: 5.6em; /* 90px from header menu + 10em*/
+    padding-top: 5.6em; /* 90px from header menu + 10em*/
     text-align: center;
     margin-bottom: 10em;
 }
+
 .mansory {
     max-width: 1200px;
     margin: 0 auto;
     column-count: 3;
 }
-
+.link {
+    margin-top: 1em;
+    color: #0077b7;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: block;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.link span {
+    display: block;
+    margin-left: 1em;
+}
 section.port-details {
     margin-top: 10.6em;
+    text-align: justify;
 }
 section.port-details div.images {
     width: 40%;

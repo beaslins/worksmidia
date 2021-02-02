@@ -44,13 +44,7 @@ function Portfolio() {
                     />
                     <Work
                         image="/images/aplicativo-congresso.png"
-                        title="CBMFR 2021"
-                        type="Desenvolvimento de aplicativo"
-                        link="portfolio/desenvolvimento-de-aplicativo-cbmfr"
-                    />
-                    <Work
-                        image="/images/aplicativo-congresso.png"
-                        title="CBMFR 2021"
+                        title="ABMFR 2021"
                         type="Desenvolvimento de aplicativo"
                         link="portfolio/desenvolvimento-de-aplicativo-cbmfr"
                     />

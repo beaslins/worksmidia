@@ -15,19 +15,19 @@ function Servicos() {
                 </div>
                 <div className="services-list">
                     <ServiceLeft 
-                        image="/images/serviceleft.png"
+                        image="/images/desenvolvimento-de-sites.jpeg"
                         subtitle="Desenvolvimento"
                         title="Desenvolvimento de Site"
                         description={<div><p>Desenvolvimento de sites para todos os tipos de negócios, desde sites corporativos até e-commerces para venda online, com tecnologia moderna e layouts responsivos que se adaptam a qualquer tamanho de tela, seja acessando pelo celular, computador ou tabletes.</p><p>Nossos sites são totalmente administráveis, atualize o site a qualquer momento através de login e senha e sem a necessidade de conhecimento técnico.</p><p>Acompanhe a evolução do seu site através de relatórios mensais com número de visitas no site, páginas mais acessadas, região demográfica dos acessos e dispositivos que os usuários mais usam (computador ou celular).</p></div>}
                     />
                     <ServiceRight 
-                        image="/images/serviceright.png"
+                        image="/images/aplicativos.jpeg"
                         subtitle="Desenvolvimento"
                         title="Criação de aplicativos mobile"
                         description={<div><p>Aplicativos mobile personalizados, não importa o tipo de negócio, nós temos a melhor solução. São aplicativos para eventos, restaurantes, empresas corporativas e entre outros.</p><p>Tenha seu aplicativo disponível na Apple Store e Google Play em 15 dias de acordo com as diretrizes de aprovação de cada plataforma.</p><p>Gerencie e atualize seu aplicativo de forma simples e intuitiva através de um painel administrativo sem a necessidade de conhecimento técnico.</p></div>}
                     />
                     <ServiceLeft 
-                        image="/images/serviceleft.png"
+                        image="/images/midias-sociais.jpeg"
                         subtitle="Marketing Digital"
                         title="Gestão de mídias sociais"
                         description={
@@ -48,7 +48,7 @@ function Servicos() {
                         }
                     />
                     <ServiceRight 
-                        image="/images/serviceright.png"
+                        image="/images/email-marketing.jpeg"
                         subtitle="Marketing Digital"
                         title="Criação e envio de e-mail marketing"
                         description={
@@ -65,9 +65,9 @@ function Servicos() {
                         }
                     />
                     <ServiceLeft 
-                        image="/images/serviceleft.png"
+                        image="/images/google.jpeg"
                         subtitle="Marketing Digital"
-                        title="Criação e envio de e-mail marketing"
+                        title="Criação e gestão de anúncios para Google Adwords"
                         description={
                             <div>
                                 <p>É no Google que as pessoas pesquisam o que fazer, aonde ir e o que comprar. Seu anúncio pode ser exibido no maior canal de pesquisa do mundo no momento exato em que uma pessoa estiver pesquisando produtos e serviços como os seus. Seja no computador ou no dispositivo móvel, um anúncio exibido no momento certo pode transformar as pessoas em clientes valiosos.</p>

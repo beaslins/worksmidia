@@ -331,7 +331,7 @@ function Home() {
                 </div>
                 <div className="posts grid">
                     <div className="post">
-                        <Link href="/">
+                        <Link href="blog/qual-a-melhor-estrategia-de-vendas">
                             <a>
                                 <Image 
                                     src="/images/blog1.jpg"
@@ -340,14 +340,14 @@ function Home() {
                                     height="280"
                                 />
                                 <div className="text">
-                                    <p className="title">Como aplicar o Marketing 4.0 na prática</p>
-                                    <p className="meta"><span className="date">25 de Dez, 2020</span> por <span className="author yellow">Works Midia</span></p>
+                                    <p className="title">Qual a melhor estratégia de vendas?</p>
+                                    <p className="meta"><span className="date">02 FEV, 2021</span> por <span className="author yellow">Works Midia</span></p>
                                 </div>
                             </a>
                         </Link>
                     </div>
                     <div className="spotlight">
-                        <Link href="/">
+                        <Link href="blog/com-estar-proximo-ao-seu-cliente">
                             <a>
                                 <Image 
                                     src="/images/blog1.jpg"
@@ -356,14 +356,14 @@ function Home() {
                                     height="280"
                                 />
                                 <div className="text">
-                                    <p className="title">Como o tempo de carregamento impacta nas vendas online?</p>
-                                    <p className="meta"><span className="date">25 de Dez, 2020</span> por <span className="author yellow">Works Midia</span></p>
+                                    <p className="title">Como estar proximo ao seu cliente!</p>
+                                    <p className="meta"><span className="date">02 FEV, 2021</span> por <span className="author yellow">Works Midia</span></p>
                                 </div>
                             </a>
                         </Link>
                     </div>
                     <div className="post">
-                        <Link href="/">
+                        <Link href="blog/esta-perdendo-vendas-e-nao-sabe-por-que">
                             <a>
                                 <Image 
                                     src="/images/blog1.jpg"
@@ -372,8 +372,8 @@ function Home() {
                                     height="280"
                                 />
                                 <div className="text">
-                                    <p className="title">Se relacionamento com seu cliente na atualidade</p>
-                                    <p className="meta"><span className="date">25 de Dez, 2020</span> por <span className="author yellow">Works Midia</span></p>
+                                    <p className="title">Está perdendo vendas e não sabe por quê?</p>
+                                    <p className="meta"><span className="date">02 FEV, 2021</span> por <span className="author yellow">Works Midia</span></p>
                                 </div>
                             </a>
                         </Link>

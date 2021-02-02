@@ -1,3 +1,35 @@
+.postContent {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    gap: 3em;
+    max-width: 1200px;
+    margin: 5.6em auto;
+    text-align: justify;
+}
+.postContent h1 {
+    color: #0077b7;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 1.25em;
+    margin-top: 1.5em;
+}
+.postContent h3 {
+    margin: 1em 0;
+    font-size: 20px;
+}
+.postContent p {
+    margin: 1em 0;
+}
+.shareButtons {
+    line-height: 0;
+    margin-bottom: 2em;
+}
+.shareButtons div {
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+}
+
 .post {
     box-shadow: 0px 0px 32px 0px rgb(0 0 0 / 7%);
     background-color: #fff;

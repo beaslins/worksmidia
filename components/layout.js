@@ -37,8 +37,8 @@ export default function Layout({children, title = 'Home | Works Midia'}) {
                 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,500&display=swap" rel="stylesheet"/>
 
                 /** Google */
-                <meta name="description" content=""/>
-                <meta name="keywords" content=""/>
+                <meta name="description" content="Marketing digital, desenvolvimento de sites, aplicativos, lojas virtuais, e-commerce, sites institucionais, sites para eventos, restaurantes, sociedades médicas e entre outros."/>
+                <meta name="keywords" content="redes sociais, marketing digital, midias sociais, anúncio facebook, anúncio instagram, anúncio google adwords, criação de artes, e-mail marketing, desenvolvimento de sites, desenvolvimento de aplicativos, aplicativos para eventos, aplicativos para restaurantes, aplicativos para negócios, aplicativos nativos, lojas virtuais, e-commerce"/>
 
                 /** Social */
                 <meta property="og:title" content="Works Midia, a sua agência digital"/>

@@ -39,7 +39,6 @@ ul {
 img {
     width: 100%;
     height: auto;
-    z-index: 1;
 }
 
 a {
@@ -65,7 +64,7 @@ button:focus {
 body {
     font-family: 'Poppins', sans-serif;
     color: #727272;
-    background: #f5f7ff;
+    background: #fff;
 }
 
 .container {
@@ -149,13 +148,14 @@ a.link, span.blue {
 header {
     width: 100%;
     transition: all 0.3s;
+    z-index: 9999;
 
     box-shadow: 0px 5px 10px -5px rgb(0 0 0 / 15%);
 }
 header.bg-white {
-    position: fixed;
+    position: sticky;
     top: 0;
-    z-index: 999;
+    z-index: 9999;
     background: #fff;
 }
 header div.flex {
