@@ -50,6 +50,19 @@ section.ser-pricing div.list ul li:nth-child(2n) {
     background: #f7f7f7;
 }
 
+section.mvv {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: center;
+    gap: 3em;
+}
+section.mvv h2.title {
+    font-size: 25px;
+    margin-bottom: 1em;
+}
+
 @media screen and (max-width: 600px) { 
     section.services {
         margin-bottom: 3em;

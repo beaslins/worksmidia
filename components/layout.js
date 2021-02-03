@@ -107,7 +107,7 @@ export default function Layout({children, title = 'Home | Works Midia'}) {
                                 width="150"
                                 height="50"
                             />
-                            <p>A Works Mídia é uma empresa de tecnologia e marketing que tem como objetivo principal levar os nossos clientes para o mundo digital.</p>
+                            <p>A Works Mídia é uma empresa de tecnologia e marketing que tem como objetivo conectar pessoas através da tecnologia!</p>
                         </div>
                         <div className="social">
                             <p className="title">Redes Sociais</p>
@@ -126,7 +126,7 @@ export default function Layout({children, title = 'Home | Works Midia'}) {
                         </div>
                         <div className="contact">
                             <p className="title">Algum projeto em mente?</p>
-                            <p>Vamos bater um papo e trazer negócio para o mundo digital!</p>
+                            <p>Vamos conversar sobre inovações para a sua empresa?</p>
                             <Link href="https://api.whatsapp.com/send?phone=551140406422">
                                 <a className="btn btn-blue">Whatsapp</a>
                             </Link>

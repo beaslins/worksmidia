@@ -46,7 +46,7 @@ function Home() {
                             Conectando <span className="yellow">pessoas</span> 
                             <span className="block">através da <span className="yellow">tecnologia!</span></span>
                         </h1>
-                        <p>A tecnologia inovou a forma de conectar pessoas, criando novas formas de comunicação, diminuindo o distanciamento e agregando valor a todos! Uma boa estratégia de marketing digital com um planejamento, desenvolvimento e criação de website e aplicativos mobile, irão colocar a sua empresa à frente no mercado.</p>
+                        <p>Uma boa estratégia de marketing digital com um planejamento, desenvolvimento e criação de website e aplicativos mobile, irão colocar a sua empresa à frente no mercado.</p>
                         <div className="flex ctas">
                             <Link href="https://api.whatsapp.com/send?phone=551140406422">
                                 <a className="btn btn-blue flex"><FaWhatsapp /> <span>Fale conosco</span></a>
@@ -107,15 +107,7 @@ function Home() {
                 <div className="flex">
                     <div className="content">
                         <div className="box">
-
                             <div className="services-list">
-                                <div className="item flex">
-                                    <div><FaShareAlt className="icon" /></div>
-                                    <div>
-                                        <h3 className="title">Marketing Digital</h3>
-                                        <p>Planejamento de marketing, gestão de redes sociais, criação de e-mail marketing, artes para mídias sociais, anúncios (Facebook, Instagram e Google Adwords)</p>
-                                    </div>
-                                </div>
                                 <div className="item flex">
                                     <div><FaLaptop className="icon" /></div>
                                     <div>
@@ -127,7 +119,14 @@ function Home() {
                                     <div><FaMobile className="icon" /></div>
                                     <div>
                                         <h3 className="title">Desenvolvimento de aplicativos mobile</h3>
-                                        <p>Aplicativos mobile personalizados, não importa o tipo de negócio, nós temos a melhor solução.</p>
+                                        <p>Aplicativos para celular personalizados, para todos os tipos de negócio. Nós temos a melhor solução para você estar na palma do seu cliente.</p>
+                                    </div>
+                                </div>
+                                <div className="item flex">
+                                    <div><FaShareAlt className="icon" /></div>
+                                    <div>
+                                        <h3 className="title">Marketing Digital</h3>
+                                        <p>Planejamento de marketing, gestão de redes sociais, criação de e-mail marketing, artes para mídias sociais, anúncios (Facebook, Instagram e Google Adwords).</p>
                                     </div>
                                 </div>
                             </div>
@@ -147,7 +146,7 @@ function Home() {
                     </div>
                 </div>
                 <div className="works">
-                    <Horizontal responsive={responsive} partialVisible renderButtonGroupOutside={true}>
+                    <Horizontal responsive={responsive} infinite={true} partialVisible renderButtonGroupOutside={true}>
                         <div className="work">
                             <Link href="portfolio/desenvolvimento-de-site-aua-news">
                                <a>
@@ -327,7 +326,7 @@ function Home() {
             <section className="home-blog container">
                 <div className="box-title">
                     <h4 className="sub-title">Blog</h4>
-                    <h2 className="title">Dicas para alavancar o <span className="block">seu negócio</span></h2>
+                    <h2 className="title">Tecnologia, Inovação <span className="block">e tendências para o seu negócio!</span></h2>
                 </div>
                 <div className="posts grid">
                     <div className="post">

@@ -16,8 +16,10 @@ function Sobre() {
                     <div className="box-title">
                         <h4 className="sub-title">Sobre</h4>
                         <h1 className="title">Works Midia <span className="block yellow">Conectando pessoas através de tecnologia</span></h1>
-                        <p>A Works Mídia é uma empresa de tecnologia e marketing que tem como objetivo principal levar os nossos clientes para o mundo digital.</p> 
-                        <p>Conectar tecnologia de ponta a pessoas de forma intuitiva e dinâmica, criando experiência e engajamento do público-alvo com a sua marca.</p>
+                        <p>Há mais de 10 anos a Works Midia conecta pessoas através da tecnologia!</p> 
+                        <p>Nosso objetivo é gerar transformação em nossos clientes com planejamento de marketing e inovação em tecnologia.</p>
+                        <p>Nossos projetos são pautados em sempre respeitar a alma do negócio de nossos clientes e agregar conhecimento com o que temos de melhor.</p>
+                        <p>Atuamos na criação de sites, desenvolvimento de aplicativos e gestão de marketing digital.</p>
                         <p>Nosso time é formado por especialistas em programação, designers e gestores de conteúdo.</p>
                         <p>Atuamos na criação de sites, desenvolvimento de aplicativos e gestão de marketing digital.</p>
                         
@@ -43,6 +45,20 @@ function Sobre() {
                             </Link>
                         </div>
                     </div>
+                </div>
+            </section>
+            <section className="mvv container">
+                <div>
+                    <h2 className="title">Missão</h2>
+                    <p>Nossa missão é cuidar de cada projeto de forma única, agregando valor através de nosso conhecimento e experiência, proporcionando aos nossos clientes um serviço de qualidade e aos nossos colaboradores um ambiente jovem com expressão.</p>
+                </div>
+                <div>
+                    <h2 className="title">Visão</h2>
+                    <p>Ser reconhecido pelos nossos clientes como um parceiro que gera transformação positiva ao negócio até 2025.</p>
+                </div>
+                <div>
+                    <h2 className="title">Valores</h2>
+                    <p></p>
                 </div>
             </section>
         </Layout>
