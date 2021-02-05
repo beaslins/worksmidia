@@ -7,7 +7,7 @@ function Post() {
             url="http://localhost:3000/blog/qual-a-melhor-estrategia-de-vendas"
             children={
                 <div>
-                    <img src="/images/bheader.jpg"/>
+                    <img src="/images/maior4.png"/>
                     <h1>Qual a melhor estratégia de vendas?</h1>
                     <div>
                         <p>As empresa querem vender mais e para isso estar próximo ao seu cliente e entender o que ele precisa e quer irá diminuir muitos passos na estratégia de venda e a possibilidade de sucesso é bem maior! Veja algumas dicas:</p>

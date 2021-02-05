@@ -7,7 +7,7 @@ function Post() {
             url="http://localhost:3000/blog/comprar-seguidores-no-instagram-expectativa-e-realidade"
             children={
                 <div>
-                    <img src="/images/bheader.jpg"/>
+                    <img src="/images/maior6.png"/>
                     <h1>Comprar seguidores no Instagram: Expectativa e Realidade</h1>
                     <div>
                         <p>Comprar os seguidores no Instagram pode passar a ideia de que você vai ter resultados imediatos, mas a realidade é que só prejudica a sua reputação e as interações da sua marca.</p>

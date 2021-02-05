@@ -7,7 +7,7 @@ function Post() {
             url="http://localhost:3000/blog/fui-procurar-e-nao-achei"
             children={
                 <div>
-                    <img src="/images/bheader.jpg"/>
+                    <img src="/images/maior1.png"/>
                     <h1>Fui procurar e não achei</h1>
                     <div>
                         <p>As pessoas irão procurar a sua empresa no Google e serão direcionadas ao seu site, e ops você não tem um ainda?</p>

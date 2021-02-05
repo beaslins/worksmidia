@@ -7,7 +7,7 @@ function Post() {
             url="http://localhost:3000/blog/hash-o-que"
             children={
                 <div>
-                    <img src="/images/bheader.jpg"/>
+                    <img src="/images/maior5.png"/>
                     <h1>Hash o que?</h1>
                     <div>
                         <p>Se bem utilizadas, as hashtags tem um potencial muito grande de <strong>aumentar a visibilidade de suas publicações</strong>, potencializando ainda mais os resultados. Mas para isso você precisa de planejamento e entendimento sobre como funciona o universo das hashtags.</p>

@@ -7,7 +7,7 @@ function Post() {
             url="http://localhost:3000/blog/com-estar-proximo-ao-seu-cliente"
             children={
                 <div>
-                    <img src="/images/bheader.jpg"/>
+                    <img src="/images/maior3.png"/>
                     <h1>Como estar proximo ao seu cliente!</h1>
                     <div>
                         <p>Afinal, como o seu cliente quer ser tratado agora? Para entender isso, veja como o Marketing demonstra a mudança de tratamento e comunicação.</p>

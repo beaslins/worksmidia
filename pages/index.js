@@ -333,7 +333,7 @@ function Home() {
                     <div className="post">
                         <Link href="blog/qual-a-melhor-estrategia-de-vendas">
                             <a>
-                                <img src="/images/blog1.jpg" alt="" title="Qual a melhor estratégia de vendas?"/>
+                                <img src="/images/menor4.png" alt="" title="Qual a melhor estratégia de vendas?"/>
                                 <div className="text">
                                     <p className="title">Qual a melhor estratégia de vendas?</p>
                                     <p className="meta"><span className="date">02 FEV, 2021</span> por <span className="author yellow">Works Midia</span></p>
@@ -344,7 +344,7 @@ function Home() {
                     <div className="spotlight">
                         <Link href="blog/com-estar-proximo-ao-seu-cliente">
                             <a>
-                                <img src="/images/blog1.jpg" alt="" title="Como estar proximo ao seu cliente!"/>
+                                <img src="/images/menor3.png" alt="" title="Como estar proximo ao seu cliente!"/>
                                 <div className="text">
                                     <p className="title">Como estar proximo ao seu cliente!</p>
                                     <p className="meta"><span className="date">02 FEV, 2021</span> por <span className="author yellow">Works Midia</span></p>
@@ -355,7 +355,7 @@ function Home() {
                     <div className="post">
                         <Link href="blog/esta-perdendo-vendas-e-nao-sabe-por-que">
                             <a>
-                                <img src="/images/blog1.jpg" alt="" title="Está perdendo vendas e não sabe por quê?"/>
+                                <img src="/images/menor2.png" alt="" title="Está perdendo vendas e não sabe por quê?"/>
                                 <div className="text">
                                     <p className="title">Está perdendo vendas e não sabe por quê?</p>
                                     <p className="meta"><span className="date">02 FEV, 2021</span> por <span className="author yellow">Works Midia</span></p>

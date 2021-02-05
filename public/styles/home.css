@@ -39,7 +39,6 @@ section.home-banner h1.home-h1 {
     margin-top: 0.5em;
 }
 
-
 section.home-whyus {
     padding-top: 5em;
 }
@@ -288,7 +287,6 @@ section.cta a.flex .icon {
     margin-left: 1em;
 }
 
-
 section.home-blog {
     padding-top: 10em;
 }
@@ -342,9 +340,7 @@ section.testimonials div.box-title {
 .testimonial-area .testmonial-slick-wrapper {
     width: 70%;
 }
-
 /* End Home */
-
 
 @media screen and (max-width: 600px) {
     section.home-banner {

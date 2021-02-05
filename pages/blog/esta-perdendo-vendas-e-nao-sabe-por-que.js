@@ -7,7 +7,7 @@ function Post() {
             url="http://localhost:3000/blog/esta-perdendo-vendas-e-nao-sabe-por-que"
             children={
                 <div>
-                    <img src="/images/bheader.jpg"/>
+                    <img src="/images/maior4.png"/>
                     <h1>Está perdendo vendas e não sabe por quê?</h1>
                     <div>
                         <p>Muitas empresas sofrem por perderem vendas e não sabem o porquê e ficam analisando toda a empresa e um simples fato de o seu site (seu cartão de visitas na internet) estar lento pode fazer com você perca não só uma venda, mas sim um possível cliente e ainda mais perca ele para sempre.</p>
