@@ -59,7 +59,6 @@ button:focus {
     outline: none;
 }
 
-
 /* General */
 body {
     font-family: 'Poppins', sans-serif;
@@ -256,6 +255,16 @@ footer div.copyright {
     text-align: right;
     margin-top: 1em;
 }
+
+._2R-kh {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr);
+}
+.footer-feed ._2R-kh {
+    grid-template-columns: repeat(8, 1fr);
+    margin-bottom: 5em;
+}
+
 /* End Footer */
 
 @media screen and (max-width: 600px) { 
@@ -351,5 +360,8 @@ footer div.copyright {
     }
     footer div.social div.flex {
         justify-content: center;
+    }
+    .footer-feed ._2R-kh {
+        grid-template-columns: repeat(4, 1fr);
     }
 }

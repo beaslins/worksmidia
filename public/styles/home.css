@@ -26,11 +26,17 @@ section.home-banner div.box-title div.flex {
 section.home-banner div.box-title div.callus {
     margin-left: 2em;
 }
-section.home-banner h1.title {
+section.home-banner p.home-title {
     font-size: 45px;
     font-weight: 700;
     line-height: 1;
     margin-bottom: 0.4em;
+    color: #0077b7;
+}
+section.home-banner h1.home-h1 {
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 0.5em;
 }
 
 
@@ -370,9 +376,12 @@ section.testimonials div.box-title {
         display: none;
     }
     section.home-banner .ctas .btn {
-        width: 100%;
+        width: 70%;
         display: block;
-        margin: 1em 0;
+        margin: 1em auto;
+    }
+    .home-social {
+        justify-content: center;
     }
 
     section.home-whyus div.flex {

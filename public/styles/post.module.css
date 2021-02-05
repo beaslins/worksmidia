@@ -56,3 +56,13 @@
 .details .author, .details .date {
     font-size: 12px;
 }
+
+@media screen and (max-width: 600px) {
+    .postContent {
+        display: block;
+        padding: 2em;
+    }
+    .postContent h1 {
+        text-align: left;
+    }
+}

@@ -19,6 +19,9 @@ import {
     PinterestIcon,
   } from "react-share";
 
+import InstagramFeed from 'react-ig-feed';
+import 'react-ig-feed/dist/index.css'
+
 export default function Post({title, url, children}) {
     return (
         <Layout title={title}>
@@ -55,7 +58,10 @@ export default function Post({title, url, children}) {
                     <div className={style.recentPosts}>
                         {/**<h4 className="sub-title">Artigos recentes</h4>*/}
                     </div>
-                    <div className={style.instagramFeed}></div>
+                    <div className={style.instagramFeed}>
+                        <h4 className="sub-title">Fique por dentro</h4>
+                        <InstagramFeed token="IGQVJVOTJMMV9RVHhRSUtwaXRaUnFzcHRJcVlMUWFFbjNwVVZANX1RpTDdibWd4amkyTlM0ZAEE4d2U1T3BmR1RIZAzNZAVUFhRVFPUWt1ZAlZAScTFuS3hGZAndZAeXZAsdHFzcU5URlBmMTFKcEVfaVJCdi0wVwZDZD"  counter="9"/>
+                    </div>
                 </aside>
             </section>
         </Layout>

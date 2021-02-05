@@ -99,6 +99,7 @@ export default function Layout({children, title = 'Home | Works Midia'}) {
             {children}
             <footer>
                 <div className="container">
+                    <Instagram/>
                     <div className="grid">
                         <div className="about">
                             <Image
@@ -132,7 +133,6 @@ export default function Layout({children, title = 'Home | Works Midia'}) {
                             </Link>
                         </div>
                     </div>
-                    <Instagram/>
                     <div className="copyright">
                         Desenvolvido por <span className="blue">Works Midia</span>
                     </div>

@@ -42,11 +42,12 @@ function Home() {
             <section className="home-banner">
                 <div className="box-title">
                     <div>
-                        <h1 className="title">
+                        <p className="home-title">
                             Conectando <span className="yellow">pessoas</span> 
                             <span className="block">através da <span className="yellow">tecnologia!</span></span>
-                        </h1>
-                        <p>Uma boa estratégia de marketing digital com um planejamento, desenvolvimento e criação de website e aplicativos mobile, irão colocar a sua empresa à frente no mercado.</p>
+                        </p>
+                        <p>A tecnologia inovou a forma de conectar pessoas, criando novas formas de comunicação, diminuindo o distanciamento e agregando valor a todos!</p>
+                        <h1 className="home-h1">Uma boa estratégia de marketing digital com um planejamento, desenvolvimento e criação de website e aplicativos mobile, irão colocar a sua empresa à frente no mercado.</h1>
                         <div className="flex ctas">
                             <Link href="https://api.whatsapp.com/send?phone=551140406422">
                                 <a className="btn btn-blue flex"><FaWhatsapp /> <span>Fale conosco</span></a>
@@ -133,7 +134,7 @@ function Home() {
                         </div>
                     </div>
                     <div className="image">
-                        <motion.img src="/images/services-pampus.png" animate={{ z: 100 }} transition={{ type: "spring", fade: 0.5}}/>
+                        <img src="/images/services-pampus.png"/>
                     </div>
                 </div>
             </section>
@@ -332,12 +333,7 @@ function Home() {
                     <div className="post">
                         <Link href="blog/qual-a-melhor-estrategia-de-vendas">
                             <a>
-                                <Image 
-                                    src="/images/blog1.jpg"
-                                    alt="Título do post"
-                                    width="370"
-                                    height="280"
-                                />
+                                <img src="/images/blog1.jpg" alt="" title="Qual a melhor estratégia de vendas?"/>
                                 <div className="text">
                                     <p className="title">Qual a melhor estratégia de vendas?</p>
                                     <p className="meta"><span className="date">02 FEV, 2021</span> por <span className="author yellow">Works Midia</span></p>
@@ -348,12 +344,7 @@ function Home() {
                     <div className="spotlight">
                         <Link href="blog/com-estar-proximo-ao-seu-cliente">
                             <a>
-                                <Image 
-                                    src="/images/blog1.jpg"
-                                    alt="Título do post"
-                                    width="370"
-                                    height="280"
-                                />
+                                <img src="/images/blog1.jpg" alt="" title="Como estar proximo ao seu cliente!"/>
                                 <div className="text">
                                     <p className="title">Como estar proximo ao seu cliente!</p>
                                     <p className="meta"><span className="date">02 FEV, 2021</span> por <span className="author yellow">Works Midia</span></p>
@@ -364,12 +355,7 @@ function Home() {
                     <div className="post">
                         <Link href="blog/esta-perdendo-vendas-e-nao-sabe-por-que">
                             <a>
-                                <Image 
-                                    src="/images/blog1.jpg"
-                                    alt="Título do post"
-                                    width="370"
-                                    height="280"
-                                />
+                                <img src="/images/blog1.jpg" alt="" title="Está perdendo vendas e não sabe por quê?"/>
                                 <div className="text">
                                     <p className="title">Está perdendo vendas e não sabe por quê?</p>
                                     <p className="meta"><span className="date">02 FEV, 2021</span> por <span className="author yellow">Works Midia</span></p>
