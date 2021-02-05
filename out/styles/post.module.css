@@ -1,0 +1,68 @@
+.postContent {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    gap: 3em;
+    max-width: 1200px;
+    margin: 5.6em auto;
+    text-align: justify;
+}
+.postContent h1 {
+    color: #0077b7;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 1.25em;
+    margin-top: 1.5em;
+}
+.postContent h3 {
+    margin: 1em 0;
+    font-size: 20px;
+}
+.postContent p {
+    margin: 1em 0;
+}
+.shareButtons {
+    line-height: 0;
+    margin-bottom: 2em;
+}
+.shareButtons div {
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+}
+
+.post {
+    box-shadow: 0px 0px 32px 0px rgb(0 0 0 / 7%);
+    background-color: #fff;
+    text-align: center;
+}
+.details {
+    padding: 2em;
+}
+.details .title {
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    line-height: 1.22em;
+    color: #293b5f;
+    transition: color 0.3s ease-in;
+}
+.details .title:hover, .details .author {
+    color: #fdc500;
+}
+.details .author {
+    text-transform: uppercase;
+    margin-left: 1em;
+}
+.details .author, .details .date {
+    font-size: 12px;
+}
+
+@media screen and (max-width: 600px) {
+    .postContent {
+        display: block;
+        padding: 2em;
+    }
+    .postContent h1 {
+        text-align: left;
+    }
+}

@@ -2,7 +2,6 @@ import React, {useState, useEffect} from 'react'
 
 import Head from 'next/head'
 import Link from 'next/link'
-import Image from 'next/image'
 import Instagram from './instagram'
 
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
@@ -49,12 +48,8 @@ export default function Layout({children, title = 'Home | Works Midia'}) {
                 <div className="container flex">
                     <Link href="/">
                         <a className="logo">
-                            <Image
-                                src="/images/logo.png"
-                                alt="Logo Works Midia"
-                                width="150"
-                                height="50"
-                            />
+                            <img src="/images/logo.png" alt="Logo Works Midia"/>
+                        
                         </a>
                     </Link>
                     <div className={showMe ? "menu-section on" : "menu-section"}>
@@ -66,12 +61,8 @@ export default function Layout({children, title = 'Home | Works Midia'}) {
                         <nav className="menu">
                             <Link href="/">
                                 <a className="logo-mobile">
-                                    <Image
-                                        src="/images/logo.png"
-                                        alt="Logo Works Midia"
-                                        width="150"
-                                        height="50"
-                                    />
+                                <img src="/images/logo.png" alt="Logo Works Midia"/>
+                                    
                                 </a>
                             </Link>
                             <Link href="/">
@@ -102,12 +93,8 @@ export default function Layout({children, title = 'Home | Works Midia'}) {
                     <Instagram/>
                     <div className="grid">
                         <div className="about">
-                            <Image
-                                src="/images/logo.png"
-                                alt="Logo Works Midia"
-                                width="150"
-                                height="50"
-                            />
+                            <img src="/images/logo.png" alt="Logo Works Midia" />
+                        
                             <p>A Works Mídia é uma empresa de tecnologia e marketing que tem como objetivo conectar pessoas através da tecnologia!</p>
                         </div>
                         <div className="social">

@@ -1,0 +1,84 @@
+/* Contact */
+section.about {
+    margin-top: 5.6em; /* 90px from header menu + 10em*/
+    align-items: center;
+    margin-bottom: 10em;
+}
+section.about div.information {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+}
+section.about div.box-title {
+    padding-right: 5em;
+    width: 70%;
+}
+section.about h1.title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 1em;
+}
+section.about h1 span {
+    margin-top: 0.5em;
+}
+section.about div.flex {
+    align-items: center;
+    justify-content: space-between;
+}
+section.about p {
+    margin-bottom: 0.7em;
+}
+
+section.about div.ctas {
+    margin-top: 2em;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+div.video {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 0;
+    position: relative;
+}
+div.video:before {
+    background: #fdc500;
+    width: 50%;
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+section.about div.video img {
+    width: 60%;
+    z-index: 1;
+}
+
+@media screen and (max-width: 600px) {
+    section.about {
+        flex-direction: column-reverse;
+    }
+    section.about div.information {
+        width: 100%;
+        padding: 0 1em;
+    }
+    section.about div.box-title {
+        width: 100%;
+        padding-right: 0;
+    }
+    div.video {
+        width: 100%;
+        margin-top: 3em;
+    }
+    section.about div.video img {
+        width: 80%;
+    }
+
+    section.testimonials {
+        display: none;
+    }
+}

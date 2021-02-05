@@ -1,5 +1,4 @@
 import Link from "next/link"
-import Image from "next/image"
 
 import Layout from "../components/layout"
 import Testmonials from "../components/testmonials"
@@ -151,91 +150,54 @@ function Home() {
                         <div className="work">
                             <Link href="portfolio/desenvolvimento-de-site-aua-news">
                                <a>
-                                    <Image 
-                                        src="/images/port1.jpg"
-                                        alt="AUA News"
-                                        layout="responsive"
-                                        width="570"
-                                        height="420"
-                                    />
+                                   <img src="/images/port1.jpg" alt="AUA News"/>
                                 </a>
                             </Link>
                         </div>
                         <div className="work">
                             <Link href="portfolio/desenvolvimento-de-aplicativo-levitatur">
-                               <a>
-                                <Image 
-                                    src="/images/port2.jpg"
-                                    alt="Levitatur"
-                                    layout="responsive"
-                                    width="570"
-                                    height="420"
-                                />
+                                <a>
+                                    <img src="/images/port2.jpg" alt="Levitatur"/>
                                 </a>
                             </Link>
                         </div>
                         <div className="work">
                             <Link href="portfolio/desenvolvimento-de-site-nohar">
                                <a>
-                                <Image 
-                                    src="/images/port3.jpg"
-                                    alt="Nohar Steak Bar"
-                                    layout="responsive"
-                                    width="570"
-                                    height="420"
-                                />
+                                <img src="/images/port3.jpg" alt="Nohar Steak Bar"/>
+                                
                                 </a>
                             </Link>
                         </div>
                         <div className="work">
                             <Link href="portfolio/desenvolvimento-de-aplicativo-sbacv">
                                <a>
-                                <Image 
-                                    src="/images/port4.jpg"
-                                    alt="SBACV"
-                                    layout="responsive"
-                                    width="570"
-                                    height="420"
-                                />
+                               <img src="/images/port4.jpg" alt="SBACV"/>
+                                
                                 </a>
                             </Link>
                         </div>
                         <div className="work">
                             <Link href="portfolio/desenvolvimento-de-site-cirurgia">
                                <a>
-                                <Image 
-                                    src="/images/port5.jpg"
-                                    alt="Curso Hands On em cadáveres"
-                                    layout="responsive"
-                                    width="570"
-                                    height="420"
-                                />
+                               <img src="/images/port5.jpg" alt="Curso Hands On em cadáveres"/>
+                                
                                 </a>
                             </Link>
                         </div>                        
                         <div className="work">
                             <Link href="portfolio/desenvolvimento-de-site-pampus">
                                <a>
-                                <Image 
-                                    src="/images/port6.jpg"
-                                    alt="Pampus"
-                                    layout="responsive"
-                                    width="570"
-                                    height="420"
-                                />
+                               <img src="/images/port6.jpg" alt="Pampus"/>
+                                
                                 </a>
                             </Link>
                         </div>
                         <div className="work">
                             <Link href="portfolio/desenvolvimento-de-aplicativo-cbmi">
                                <a>
-                                <Image 
-                                    src="/images/port7.jpg"
-                                    alt="CBMI"
-                                    layout="responsive"
-                                    width="570"
-                                    height="420"
-                                />
+                                <img src="/images/port7.jpg" alt="CBMI"/>
+                                
                                 </a>
                             </Link>
                         </div>
@@ -246,44 +208,24 @@ function Home() {
             <section className="home-clients container p-box">
                 <Horizontal responsive={responsive} arrows={true}>
                     <div className="client flex flex-centered">
-                        <Image 
-                            src="/images/pampus.png"
-                            alt="Pampus"
-                            width="105"
-                            height="41"
-                        />
+                    <img src="/images/pampus.png" alt="Pampus"/>
+                        
                     </div>
                     <div className="client flex flex-centered">
-                        <Image 
-                            src="/images/nohar.png"
-                            alt="Nohar Steak Bar"
-                            width="105"
-                            height="41"
-                        />
+                    <img src="/images/nohar.png" alt="Nohar Steak Bar"/>
+                       
                     </div>
                     <div className="client flex flex-centered">
-                        <Image 
-                            src="/images/levitatur.png"
-                            alt="Levitatur"
-                            width="105"
-                            height="41"
-                        />
+                    <img src="/images/levitatur.png" alt="Levitatur"/>
+                        
                     </div>
                     <div className="client flex flex-centered">
-                        <Image 
-                            src="/images/amib.png"
-                            alt="AMIB"
-                            width="105"
-                            height="41"
-                        />
+                    <img src="/images/amib.png" alt="AMIB"/>
+                        
                     </div>
                     <div className="client flex flex-centered">
-                        <Image 
-                            src="/images/aua.png"
-                            alt="AUA News"
-                            width="105"
-                            height="41"
-                        />
+                    <img src="/images/aua.png" alt="AUA News"/>
+                        
                     </div>
                 </Horizontal>
             </section>

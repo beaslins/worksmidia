@@ -1,0 +1,431 @@
+/* Home */
+section.home-banner {
+    height: calc(100vh - 90px);
+    align-items: center;
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+    overflow: hidden;
+}
+section.home-banner div.box-title {
+    margin-left: auto;
+    padding-right: 5em;
+    width: 90%;
+}
+section.home-banner div.home-image img.image {
+    width: 100%;
+}
+section.home-banner div.box-title p.title {
+    font-size: 14px;
+}
+section.home-banner div.box-title div.flex {
+    margin-top: 2em;
+    align-items: center;
+}
+section.home-banner div.box-title div.callus {
+    margin-left: 2em;
+}
+section.home-banner p.home-title {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 0.4em;
+    color: #0077b7;
+}
+section.home-banner h1.home-h1 {
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 0.5em;
+}
+
+section.home-whyus {
+    padding-top: 5em;
+}
+section.home-whyus div.flex {
+    justify-content: center;
+    align-items: flex-start;
+}
+section.home-whyus div.item {
+    text-align: center;
+    width: 25%;
+    padding: 0 1.5em;
+    flex-direction: column;
+}
+section.home-whyus div.item h3 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 1em;
+    text-align: center;
+    width: 100%;
+}
+section.home-whyus div.item p {
+    font-size: 15px;
+}
+section.home-whyus .icon {
+    width: 25px;
+}
+
+.home-social {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 2em;
+}
+.home-social a {
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+    transition: 1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #003f88;
+    color: #fff;
+    margin-top: 0.6em;
+}
+.home-social a:hover {
+    background: #fdc500;
+    color: #0077b7;
+}
+.home-social a + a {
+    margin-left: 1em;
+}
+.home-social .icon {
+    width: 20px;
+    height: 20px;
+}
+.ctas .btn {
+    align-items: center;
+}
+.ctas .btn span {
+    margin-left: 0.5em;
+}
+
+/* Bases */
+.base {
+    width: 100px;
+    height: 100px;
+}
+.base-one {
+    background: url('/images/base_one.png') center/contain no-repeat;
+}
+.base-two {
+    background: url('/images/base_two.png') center/contain no-repeat;
+}
+.base-three {
+    background: url('/images/base_three.png') center/contain no-repeat;
+}
+/* End Bases */
+
+section.home-services {
+    padding-top: 10em;
+    margin-bottom: 5em;
+}
+section.home-services div.flex {
+    align-items: center;
+    justify-content: center;
+}
+section.home-services div.content, section.home-services div.image {
+    display: flex;
+    justify-content: flex-end;
+}
+section.home-services div.content {
+    width: 60%;
+}
+section.home-services div.image {
+    width: 40%;
+}
+section.home-services div.content div.box {
+    padding-right: 5em;
+    width: 70%;
+}
+section.home-services div.box-title {
+    margin-bottom: 5em;
+    text-align: center;
+}
+section.home-services div.box-title h2 {
+    margin-bottom: 0.5em;
+}
+section.home-services div.content div.item {
+    margin-bottom: 2em;
+    align-items: center;
+}
+section.home-services div.content div.item div + div {
+    padding-left: 2em;
+}
+section.home-services div.content div.item h3.title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+section.home-services div.content div.item .icon {
+    width: 30px;
+}
+section.home-clients div.client ul li + li {
+    margin-left: 1em;
+}
+section.home-clients button {
+    right: 0 !important;
+    background: transparent !important;
+}
+section.home-clients button:hover {
+    background: transparent !important;
+}
+section.home-clients button::before {
+    color: #000 !important;
+}
+
+section.home-portfolio div.port-title {
+    margin-bottom: 5em;
+}
+section.home-portfolio div.port-title div.box-title {
+    width: 100%;
+    text-align: center;
+}
+section.home-portfolio div.works ul li + li  {
+    margin-left: 1.5em;
+}
+
+
+section.home-pricing div.pri-title {
+    width: 50%;
+    justify-content: flex-end;
+}
+section.home-pricing div.pri-title div.box-title {
+    width: 70%;
+}
+
+section.home-pricing div.list {
+    grid-template-columns: repeat(4, 17.5%);
+    padding-top: 5em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+section.home-pricing div.list div.item {
+    border: 1px solid #ddd;
+}
+section.home-pricing div.list div.active {
+    border: none;
+    box-shadow: 0px 0px 32px rgb(0 0 0 / 10%);
+    position: relative;
+    padding-bottom: 4em;
+}
+section.home-pricing div.list div.item div.header {
+    padding: 1em 2em;
+    background: coral;
+    font-weight: 700;
+    font-size: 18px;
+    
+    background-color: #FFEBE2;
+    color: #d8a997;
+}
+section.home-pricing div.list ul li {
+    padding: 1em 0;
+}
+section.home-pricing div.list ul li:nth-child(2n) {
+    background: #f7f7f7;
+}
+
+section.cta {
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+}
+section.cta h2 {
+    margin-bottom: 1em;
+}
+section.cta a.flex {
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+}
+section.cta a.flex .icon {
+    font-size: 20px;
+    margin-right: 0.5em;
+}
+
+.home-cont-form {
+    position: relative;
+    padding: 2em;
+    margin-top: 5em;
+}
+.home-cont-form:before {
+    position: absolute;
+    top: 0;
+    left: 0%;
+    width: 100%;
+    height: 180px;
+    background-color: #fdc500;
+    content: "";
+}
+.home-cont-form form {
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    padding: 50px 50px 40px;
+    box-shadow: 5px 8px 30px rgb(0 0 0 / 15%);
+}
+.home-input-group {
+    display: flex;
+    margin-bottom: 2em;
+}
+.home-input-group input, .home-input-group textarea {
+    color: #293b5f;
+    font-size: 16px;
+    position: relative;
+    width: 100%;
+    background-color: transparent;
+    border-bottom: 1px solid #dddddd;
+    padding: 0 0 10px !important;
+}
+.home-input-group textarea {
+    height: 100px;
+}
+.home-input-group input +input {
+    margin-left: 1em;
+}
+
+section.home-blog {
+    padding-top: 10em;
+}
+section.home-blog div.box-title {
+    text-align: center;
+    margin-bottom: 5em;
+}
+section.home-blog div.posts {
+    grid-template-columns: repeat(3, 25%);
+    grid-gap: 2em;
+    justify-content: center;
+    align-items: center;
+}
+section.home-blog div.posts div.post, section.home-blog div.posts div.spotlight {
+    box-shadow: 0px 0px 32px 0px rgb(0 0 0 / 10%);
+    background: #fff;
+}
+section.home-blog div.posts div.post p.meta, section.home-blog div.posts div.spotlight p.meta {
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-top: 1.5em;
+}
+section.home-blog div.posts div.post p.title:hover, section.home-blog div.posts div.spotlight p.title:hover {
+    color: #fdc500;
+}
+section.home-blog div.posts div.post div.text, section.home-blog div.posts div.spotlight div.text {
+    padding: 2em;
+    text-align: center;
+}
+section.home-blog div.posts div.post p.title {
+    font-size: 20px;
+    transition: color 0.5s ease;
+}
+section.home-blog div.posts div.spotlight p.title {
+    font-size: 25px;
+    transition: color 0.5s ease;
+}
+
+section.testimonials {
+    align-items: center;
+}
+section.testimonials .testimonial-area {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+section.testimonials div.box-title {
+    width: 30%;
+    margin-left: 5em;
+}
+.testimonial-area .testmonial-slick-wrapper {
+    width: 70%;
+}
+/* End Home */
+
+@media screen and (max-width: 600px) {
+    section.home-banner {
+        height: calc(100vh - 90px);
+        padding-top: 90px;
+        display: block;
+        margin: 0 2em;
+    }
+    section.home-banner div.box-title {
+        width: 100%;
+        padding-right: 0;
+    }
+    section.home-banner div.content {
+        display: block;
+        width: 100%;
+        padding: 0 1em;
+    }
+    section.home-banner div.content div.box-title, section.home-services div.content div.box {
+        width: 100%;
+        padding-right: 0;
+    }
+    section.home-banner div.box-title div.flex {
+        display: block;
+    }
+    section.home-banner h1.title {
+        font-size: 35px;
+    }
+    section.home-banner .image, section.home-services div.image {
+        display: none;
+    }
+    section.home-banner .ctas .btn {
+        width: 70%;
+        display: block;
+        margin: 1em auto;
+    }
+    .home-social {
+        justify-content: center;
+    }
+
+    section.home-whyus div.flex {
+        flex-direction: column;
+    }
+    section.home-whyus div.item {
+        width: 100%;
+        margin: 1em 0
+    }
+
+    section.home-services {
+        display: block;
+        padding: 0 1em;
+    }
+    section.home-services div.content, section.home-services div.image {
+        width: 100%;
+    }
+
+    section.home-portfolio, section.home-pricing {
+        padding: 0 1em;
+    }
+    section.home-portfolio div.port-title, 
+    section.home-portfolio div.port-title div.box-title, 
+    section.home-pricing div.pri-title {
+        display: block;
+        width: 100%;
+    }
+
+    section.home-pricing div.pri-title div.box-title {
+        width: 100%;
+        margin-top: 5em;
+    }
+    section.home-pricing div.list {
+        grid-template-columns: 1fr;
+        padding-top: 3em;
+    }
+
+    section.cta {
+        width: 100%;
+        margin-top: 5em;
+    }
+
+    section.home-blog {
+        margin-top: 5em;
+    }
+    section.home-blog div.posts {
+        grid-template-columns: 1fr;
+        padding: 0 1em;
+    }
+}
+

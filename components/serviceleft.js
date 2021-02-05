@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import Image from 'next/image'
+
 
 import style from "../public/styles/service.module.css"
 

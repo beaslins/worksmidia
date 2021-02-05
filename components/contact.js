@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import Image from 'next/image'
 
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 import style from "../public/styles/contact.module.css"
