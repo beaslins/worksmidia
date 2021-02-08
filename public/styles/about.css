@@ -58,6 +58,18 @@ section.about div.video img {
     z-index: 1;
 }
 
+section.mvv {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: center;
+    gap: 3em;
+}
+section.mvv h2.title {
+    font-size: 25px;
+    margin-bottom: 1em;
+}
 @media screen and (max-width: 600px) {
     section.about {
         flex-direction: column-reverse;
@@ -80,5 +92,11 @@ section.about div.video img {
 
     section.testimonials {
         display: none;
+    }
+    section.mvv {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 3em;
+        padding: 0 2em;
     }
 }

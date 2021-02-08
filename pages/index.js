@@ -73,32 +73,6 @@ function Home() {
                 </div>
             </section>
 
-            {/**<section className="home-whyus">
-                <div className="container flex">
-                    <div className="item flex">
-                        <div className="base base-one flex flex-centered">
-                            <FaLightbulb className="icon" />
-                        </div>
-                        <h3 className="title">Missão</h3>
-                        <p>Proporcionar aos clientes o que tem de mais moderno em Tecnologia e Marketing, com excelência em inovação.</p>
-                    </div>
-                    <div className="item flex">
-                        <div className="base base-two flex flex-centered">
-                            <FaLightbulb className="icon" />
-                        </div>
-                        <h3 className="title">Visão</h3>
-                        <p>Ser empresa referência em tecnologia e soluções de marketing digital aos nossos clientes até 2023.</p>
-                    </div>
-                    <div className="item flex">
-                        <div className="base base-three flex flex-centered">
-                            <FaLightbulb className="icon" />
-                        </div>
-                        <h3 className="title">Valores</h3>
-                        <p>Desenvolver soluções arrojadas, de alto padrão e fácil acesso.</p>
-                    </div>
-                </div>
-            </section>*/}
-
             <section className="home-services">
                 <div className="box-title">
                     <h4 className="sub-title">Serviços</h4>
@@ -142,7 +116,7 @@ function Home() {
                 <div className="port-title">
                     <div className="box-title">
                         <h4 className="sub-title">Portfólio</h4>
-                        <h2 className="title">Empresas que confiam <span className="block">no trabalho da Works Midia</span></h2>
+                        <h2 className="title">Confira alguns projetos realizados <span className="block">que agregaram valor aos nossos clientes</span></h2>
                     </div>
                 </div>
                 <div className="works">
@@ -206,6 +180,10 @@ function Home() {
             </section>
 
             <section className="home-clients container p-box">
+                <div className="box-title">
+                    <h4 className="sub-title">Portfólio</h4>
+                    <h2 className="title">Empresas que confiam <span className="block">no trabalho da Works Midia</span></h2>
+                </div>
                 <Horizontal responsive={responsive} arrows={true}>
                     <div className="client flex flex-centered">
                     <img src="/images/pampus.png" alt="Pampus"/>

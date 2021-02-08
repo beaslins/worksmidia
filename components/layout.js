@@ -31,18 +31,81 @@ export default function Layout({children, title = 'Home | Works Midia'}) {
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
                 <meta name="author" content="Works Midia"/>
 
-                /** Font */
+                {/** Font */}
                 <link rel="preconnect" href="https://fonts.gstatic.com"/>
                 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,500&display=swap" rel="stylesheet"/>
 
-                /** Google */
+                {/** Google */}
                 <meta name="description" content="Marketing digital, desenvolvimento de sites, aplicativos, lojas virtuais, e-commerce, sites institucionais, sites para eventos, restaurantes, sociedades médicas e entre outros."/>
                 <meta name="keywords" content="redes sociais, marketing digital, midias sociais, anúncio facebook, anúncio instagram, anúncio google adwords, criação de artes, e-mail marketing, desenvolvimento de sites, desenvolvimento de aplicativos, aplicativos para eventos, aplicativos para restaurantes, aplicativos para negócios, aplicativos nativos, lojas virtuais, e-commerce"/>
 
-                /** Social */
+                {/** Social */}
                 <meta property="og:title" content="Works Midia, a sua agência digital"/>
                 <meta property="og:description" content=""/>
                 <meta property="og:image" content=""/>
+
+                <meta name="p:domain_verify" content="bdf552aa15af8bb26d76338f2c045c3a"/>
+
+                {/** GTAG */}
+                <script async src="https://www.googletagmanager.com/gtag/js?id=UA-75575214-1"></script>
+                <script
+                    dangerouslySetInnerHTML={{
+                        __html:`
+                        window.dataLayer = window.dataLayer || [];
+                        function gtag(){dataLayer.push(arguments);}
+                        gtag('js', new Date());
+        
+                        gtag('config', 'UA-75575214-1');
+                      `,
+                    }}
+                />
+                
+                {/** Facebook */}
+                <script
+                    dangerouslySetInnerHTML={{
+                        __html:`
+                        !function(f,b,e,v,n,t,s)
+                        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+                        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+                        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+                        n.queue=[];t=b.createElement(e);t.async=!0;
+                        t.src=v;s=b.getElementsByTagName(e)[0];
+                        s.parentNode.insertBefore(t,s)}(window,document,'script',
+                        'https://connect.facebook.net/en_US/fbevents.js');
+                        fbq('init', '2777167209166235');
+                        fbq('track', 'PageView');
+                      `,
+                    }}
+                />
+                <noscript>
+                    <img height="1" width="1" src="https://www.facebook.com/tr?id=2777167209166235&ev=PageView&noscript=1"/>
+                </noscript>
+
+                {/** Linkedin */}
+                <script
+                    dangerouslySetInnerHTML={{
+                        __html:`
+                        _linkedin_partner_id = "3216801";
+                        window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+                        window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+                      `,
+                    }}
+                />
+                <script
+                    dangerouslySetInnerHTML={{
+                        __html:`
+                        (function(){var s = document.getElementsByTagName("script")[0];
+                        var b = document.createElement("script");
+                        b.type = "text/javascript";b.async = true;
+                        b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+                        s.parentNode.insertBefore(b, s);})();
+                      `,
+                    }}
+                />
+                <noscript>
+                    <img height="1" width="1" alt="" src="https://px.ads.linkedin.com/collect/?pid=3216801&fmt=gif" />
+                </noscript>
+
             </Head>
             <header className={scroll ? "bg-white" : ""}>
                 <div className="container flex">

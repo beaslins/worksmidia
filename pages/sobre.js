@@ -21,7 +21,6 @@ function Sobre() {
                         <p>Nossos projetos são pautados em sempre respeitar a alma do negócio de nossos clientes e agregar conhecimento com o que temos de melhor.</p>
                         <p>Atuamos na criação de sites, desenvolvimento de aplicativos e gestão de marketing digital.</p>
                         <p>Nosso time é formado por especialistas em programação, designers e gestores de conteúdo.</p>
-                        <p>Atuamos na criação de sites, desenvolvimento de aplicativos e gestão de marketing digital.</p>
                         
                         <p>Algum projeto em mente? Agende agora uma reunião com a nossa equipe e vamos levar o seu negócio para o mundo digital!</p>
 
@@ -58,7 +57,7 @@ function Sobre() {
                 </div>
                 <div>
                     <h2 className="title">Valores</h2>
-                    <p></p>
+                    <p>Ética: agir com integridade, honestidade e respeito aos direitos humanos. Inovação: criar formas de conectar pessoas pela mesma razão.</p>
                 </div>
             </section>
         </Layout>
