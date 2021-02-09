@@ -161,11 +161,15 @@ section.home-services div.content div.item h3.title {
 section.home-services div.content div.item .icon {
     width: 30px;
 }
+section.home-clients div.box-title {
+    text-align: center;
+    margin-bottom: 5em;
+}
 section.home-clients div.client ul li + li {
     margin-left: 1em;
 }
 section.home-clients button {
-    right: 0 !important;
+    /*right: 0 !important;*/
     background: transparent !important;
 }
 section.home-clients button:hover {
@@ -344,10 +348,11 @@ section.testimonials div.box-title {
 
 @media screen and (max-width: 600px) {
     section.home-banner {
-        height: calc(100vh - 90px);
         padding-top: 90px;
         display: block;
-        margin: 0 2em;
+
+        margin: 0 2em 5em;
+        height: 100%;
     }
     section.home-banner div.box-title {
         width: 100%;
