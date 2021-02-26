@@ -262,6 +262,10 @@ footer div.copyright {
     text-align: right;
     margin-top: 1em;
 }
+footer div.legal-informations {
+    display: flex;
+    justify-content: space-between;
+}
 
 ._2R-kh {
     display: grid !important;

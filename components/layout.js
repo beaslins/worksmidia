@@ -183,11 +183,34 @@ export default function Layout({children, title = 'Home | Works Midia'}) {
                             </Link>
                         </div>
                     </div>
-                    <div className="copyright">
-                        Desenvolvido por <span className="blue">Works Midia</span>
+                    <div className="legal-informations">
+                        <div>
+                            <p>Works Midia Comunicação e Marketing LTDA</p>
+                            <p>CNPJ: 12.222.510/0001-92</p>
+                        </div>
+                        <div className="copyright">
+                            Desenvolvido por <span className="blue">Works Midia</span>
+                        </div>
                     </div>
                 </div>
             </footer>
+            {/** Start of Tawk.to Script */}
+            <script
+                dangerouslySetInnerHTML={{
+                    __html:`
+                    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+                    (function(){
+                    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+                    s1.async=true;
+                    s1.src='https://embed.tawk.to/60365b0f385de407571990e7/1eva57dp0';
+                    s1.charset='UTF-8';
+                    s1.setAttribute('crossorigin','*');
+                    s0.parentNode.insertBefore(s1,s0);
+                    })();
+                    `,
+                }}
+            />
+            {/** End of Tawk.to Script */}
         </>
     )
 }
